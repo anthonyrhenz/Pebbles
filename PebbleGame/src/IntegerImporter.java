@@ -14,7 +14,6 @@ public class IntegerImporter {
      *
      * @param filePath File to the path
      * @return Returns an array of integers
-     * @throws IllegalArgumentException When filePath is invalid for any reason
      */
     public static ArrayList<Integer> importFromFile(String filePath) throws IOException, IllegalArgumentException {
         try {
@@ -27,7 +26,7 @@ public class IntegerImporter {
 
             return pebbleIntList;
         } catch (FileNotFoundException e) {
-            throw new IllegalArgumentException("Provided filePath does not point at the existing file", e);
+            throw new IllegalArgumentException("Provided filePath does not point at anC:\\repos existing file");
         } catch (NumberFormatException e) {
             throw new IllegalArgumentException("Invalid file format. Comma separated integer values are expected");
         }

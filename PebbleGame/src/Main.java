@@ -1,39 +1,21 @@
+import java.util.ArrayList;
+
 public class Main {
-    public static boolean isPrime(int n) {
-        //check if n is a multiple of 2
-        if (n % 2 == 0) return false;
-        //if not, then just check the odds
-        for (int i = 3; i * i <= n; i += 2) {
-            if (n % i == 0)
-                return false;
-        }
-        return true;
-    }
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // this text is taken directly from the specification PDF
+        System.out.println("Welcome to the PebbleGame!" + "\n"
+                + "You will be asked to enter the number of players." + "\n"
+                + "And then for the location of of three files in turn containing comma separated integer values for the pebble weights." + "\n"
+                + "The integer values must be strictly positive." + "\n"
+                + "The game will then be simulated, and output written to files in this directory." + "\n\n");
 
-//        for (int i=1; i<10; i++){
-//            System.out.println("Count is: " + i);
-//        }
-
-        int[] numArray = {1, 2, 3, 4, 4, 5, 6, 6, 6, 7};
-        for (int i : numArray) {
-            System.out.printf("List is %h%h", i, "meme end\n");
-        }
-        int i = 0;
-        while (i != 10) {
-            System.out.println(i);
-            i++;
-        }
-
-        int j = 0;
-        while (true) {
-            System.out.println(j + " | " + isPrime(j));
-            j++;
-            if (j > 1001) {
-                break;
-            }
-        }
+        /*
+         * putting all of this in Main for now just so I can test, probably best to have it all in its own class
+         * responsible for setting up all the bags and players etc and then just call that class here
+         */
+        InputParser inParser = new InputParser();
+        int noPlayers = inParser.getPlayers();
+        ArrayList<Integer> pebbleValueList = inParser.getPebbleValues("number 0");
+        System.out.println(pebbleValueList);
     }
 }
