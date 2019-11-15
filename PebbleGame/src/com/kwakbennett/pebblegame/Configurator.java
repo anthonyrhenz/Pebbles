@@ -1,15 +1,39 @@
+package com.kwakbennett.pebblegame;
+
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * Parser for user input in the console
+ * Class for game configuration using console
  */
-public class InputParser {
+public class Configurator {
 
-    public InputParser() {
+    private int players;
+    private ArrayList<ArrayList<Integer>> pebbleValues;
+
+    public Configurator() {
+    }
+
+    public ArrayList<ArrayList<Integer>> getPebbleValues() {
+        return pebbleValues;
+    }
+
+    public int getPlayers() {
+        return players;
+    }
+
+    /**
+     * Asks user for number of players and pebble values for each bag
+     */
+    public void start() {
+        this.players = this.askPlayers();
+        this.pebbleValues = new ArrayList<>();
+
+        this.pebbleValues.add(askPebbleValues("X"));
+        this.pebbleValues.add(askPebbleValues("Y"));
+        this.pebbleValues.add(askPebbleValues("Z"));
     }
 
     /**
@@ -17,7 +41,7 @@ public class InputParser {
      *
      * @return number of players, a positive, non-zero integer
      */
-    public int getPlayers() {
+    private int askPlayers() {
         Scanner inScanner = new Scanner(System.in);
         int noPlayers = 1;
 
@@ -43,9 +67,9 @@ public class InputParser {
      * @param bagName name of the bag to display when asking user
      * @return ArrayList of integers containing pebble values
      */
-    public ArrayList<Integer> getPebbleValues(String bagName) {
+    private ArrayList<Integer> askPebbleValues(String bagName) {
         Scanner inScanner = new Scanner(System.in);
-        ArrayList<Integer> pebbleValueList = new ArrayList<Integer>();
+        ArrayList<Integer> pebbleValueList = new ArrayList<>();
 
         //again, not a very elegant solution, can fix/replace later
         System.out.println("Please enter location of bag " + bagName + " to load:");
@@ -55,10 +79,11 @@ public class InputParser {
                 break;
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
-                inScanner.next();
+                System.out.println("Please enter location of bag " + bagName + " to load:");
             } catch (IOException e) {
                 System.out.println("Something went wrong when reading the file");
-                inScanner.next();
+                System.out.println("Please enter location of bag " + bagName + " to load:");
+
             }
         }
         return pebbleValueList;

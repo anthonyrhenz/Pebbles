@@ -1,3 +1,5 @@
+package com.kwakbennett.pebblegame;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.BufferedReader;
@@ -18,15 +20,16 @@ public class IntegerImporter {
     public static ArrayList<Integer> importFromFile(String filePath) throws IOException, IllegalArgumentException {
         try {
             BufferedReader pebbleBR = new BufferedReader(new FileReader(filePath));
-            ArrayList<Integer> pebbleIntList = new ArrayList<Integer>();
+            ArrayList<Integer> pebbleIntList = new ArrayList<>();
 
             for (String s : pebbleBR.readLine().split(",")) {
                 pebbleIntList.add(Integer.valueOf(s));
             }
 
+            pebbleBR.close();
             return pebbleIntList;
         } catch (FileNotFoundException e) {
-            throw new IllegalArgumentException("Provided filePath does not point at anC:\\repos existing file");
+            throw new IllegalArgumentException("Provided filePath does not point at an existing file");
         } catch (NumberFormatException e) {
             throw new IllegalArgumentException("Invalid file format. Comma separated integer values are expected");
         }

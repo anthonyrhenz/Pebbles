@@ -1,3 +1,5 @@
+package com.kwakbennett.pebblegame.model;
+
 /**
  * Simple pebble class
  */
