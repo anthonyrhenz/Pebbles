@@ -80,6 +80,9 @@ public class Configurator {
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
                 System.out.println("Please enter location of bag " + bagName + " to load:");
+            } catch (IOException e) {
+                System.out.println("Something went wrong when reading the file.");
+                System.out.println("Please enter location of bag " + bagName + " to load:");
             }
         }
         return outputBag;
