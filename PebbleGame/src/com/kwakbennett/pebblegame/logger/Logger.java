@@ -1,5 +1,7 @@
 package com.kwakbennett.pebblegame.logger;
 
+//this whole class seems redundant, prob should delete, sorry about that
+
 //import com.kwakbennett.pebblegame.model.Pebble;
 import java.util.ArrayList;
 
