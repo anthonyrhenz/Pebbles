@@ -7,7 +7,7 @@ import java.nio.Buffer;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Player implements Runnable{
+public class Player implements Runnable {
 
     private static final Object lock = new Object();
 
@@ -16,22 +16,26 @@ public class Player implements Runnable{
     ArrayList<Integer> hand = new ArrayList<Integer>();
     Random random;
     String playerName;
+    ArrayList<Bag> bags = new ArrayList<>();
 
     //constructors
-    public Player(String playerName, String logOutput) throws IOException{
+    public Player(String playerName, String logOutput, ArrayList<Bag> bags) throws IOException {
+        //this.output = new FileLogStream(logOutPut); - if we go the interface way
         this.output = new BufferedWriter(new FileWriter(logOutput), 32768);
         Random random = new Random();
         this.playerName = playerName;
+        this.bags = bags; //added bag reference list to constructor
     }
 
     //Methods
 
-    /** I'm moving the methods for bag access over to the players
+    /**
+     * I'm moving the methods for bag access over to the players
      * since they need to be synchronized, not the bags - bags will do themselves if these are sync'd
      */
 
     //according to the docs, first discard a pebble. max hand size is 10, no buffering
-    void removePebble(Bag bag){
+    void removePebble(Bag bag) {
         synchronized (lock) {
             //get random pebble, store, and remove from hand
             int pebble = this.hand.remove(random.nextInt(this.hand.size()));
@@ -49,18 +53,54 @@ public class Player implements Runnable{
             //since each player needs its own instance anyway should cause thread problems
             //using memory would be a problem as the game should technically be able to run forever
 
+            //also maybe should move logging out of the synchronized block (?but then it won't see pebble?)
             try {
-                this.output.write(this.playerName + " has drawn a 17 from bag Y\r\n"+this.playerName+" hand is " + this.hand.toString());
-            }
-            catch (IOException e) {
-                System.out.println("Failed to log player action on "+ this.playerName);
+                this.output.write(this.playerName + " has discarded a " + pebble + " to bag " + bag.getName() + "\r\n"
+                        + this.playerName + " hand is " + this.hand.toString());
+            } catch (IOException e) {
+                System.out.println("Failed to log player action on " + this.playerName);
             }
 
         }
     }
 
+    void addPebble(Bag bag) {
+        synchronized (lock) {
+            //need to check is bag empty
+
+            int pebble = bag.takeRandomPebble();
+            this.hand.add(pebble);
+
+            try {
+                this.output.write(this.playerName + " has drawn a " + pebble + " from bag " + bag.getName() + "\r\n"
+                        + this.playerName + " hand is " + this.hand.toString());
+            } catch (IOException e) {
+                System.out.println("Failed to log player action on " + this.playerName);
+            }
+        }
+    }
+
+    boolean checkWin() {
+        int sum = 0;
+        for (int i : this.hand) {
+            sum += i;
+        }
+        if (sum >= 100) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     @Override
     public void run() {
-        System.out.print(this.playerName);
+        Bag bag = this.bags.get(random.nextInt(3));
+        for (int i = 0; i < 10; i++) {
+            addPebble(bag);
+        }
+        if (checkWin()) {
+            // win stuff
+        }
+        //while loop discard,add,checkWin until a player wins
     }
 }

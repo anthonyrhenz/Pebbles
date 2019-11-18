@@ -9,6 +9,7 @@ import java.util.Random;
  * Upon matching the bags, they can be accessed independently but must be synchronous and atomic
  * also sorry jakub i killed pebble objects, seemed unnecessary
  * nevermind it doesn't matter what the colour is, just the pairs match
+ * TODO: 18/11/2019 any ideas on how to match the bags? just have an attribute pairedBag or something with a reference? or pair them in a tuple?
  */
 public class Bag {
     private ArrayList<Integer> pebbles;
@@ -32,6 +33,14 @@ public class Bag {
 
     public String getName() {
         return name;
+    }
+
+    public boolean isEmpty() {
+        if (pebbles.size() == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**

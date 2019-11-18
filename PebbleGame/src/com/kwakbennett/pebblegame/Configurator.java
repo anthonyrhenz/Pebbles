@@ -2,8 +2,6 @@ package com.kwakbennett.pebblegame;
 
 import com.kwakbennett.pebblegame.model.Bag;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.*;
 
@@ -12,27 +10,29 @@ import java.util.*;
  */
 public class Configurator {
 
-    private int players;
+    private int playerCount;
+    private ArrayList<Bag> bags;
 
     public Configurator() {
     }
 
 
-    public int getPlayers() {
-        return players;
+    public int getPlayerCount() {
+        return playerCount;
+    }
+
+    public ArrayList<Bag> getBags() {
+        return bags;
     }
 
     /**
      * Asks user for number of players and pebble values for each bag
      */
     public void start() {
-        this.players = this.askPlayers();
-
-        //we make 6 very publicly accessible baggies
-        Bag bagX = askPebbleValues("X");
-        askPebbleValues("Y");
-        askPebbleValues("Z");
-
+        this.playerCount = this.askPlayerCount();
+        this.bags.add(askPebbleValues("X"));
+        this.bags.add(askPebbleValues("Y"));
+        this.bags.add(askPebbleValues("Z"));
     }
 
     /**
@@ -40,7 +40,7 @@ public class Configurator {
      *
      * @return number of players, a positive, non-zero integer
      */
-    private int askPlayers() {
+    private int askPlayerCount() {
         Scanner inScanner = new Scanner(System.in);
         int noPlayers = 1;
 
@@ -80,9 +80,6 @@ public class Configurator {
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
                 System.out.println("Please enter location of bag " + bagName + " to load:");
-            } catch (IOException e) {
-                System.out.println("Something went wrong when reading the file.");
-                System.out.println("Please enter location of bag " + bagName + " to load:");
             }
         }
         return outputBag;
@@ -92,7 +89,7 @@ public class Configurator {
     //pass the file into the scanner as arg with new meth
 
     //this better maybe?
-    private Bag fileToBag(String fileLocation, String bagName) throws IllegalArgumentException, IOException {
+    private Bag fileToBag(String fileLocation, String bagName) throws IllegalArgumentException {
 /*        Scanner scanner = null;
         try {
             scanner = new Scanner(new File(fileLocation));
@@ -111,6 +108,9 @@ public class Configurator {
         for (int val : bagWeightsInts) {
             if (val <= 0) {
                 throw new IllegalArgumentException("Integers in list must be strictly positive");
+            }
+            if (bagWeightsInts.size() < 11 * this.playerCount) {
+                throw new IllegalArgumentException("File must contain at least 11 times as many numbers as there are players");
             }
         }
         return new Bag(bagWeightsInts, "X");
