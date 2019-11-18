@@ -1,5 +1,6 @@
 package com.kwakbennett.pebblegame.logger;
 
+
 import java.io.FileWriter;
 import java.io.IOException;
 

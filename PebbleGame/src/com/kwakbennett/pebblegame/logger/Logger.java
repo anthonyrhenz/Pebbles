@@ -1,6 +1,6 @@
 package com.kwakbennett.pebblegame.logger;
 
-import com.kwakbennett.pebblegame.model.Pebble;
+//import com.kwakbennett.pebblegame.model.Pebble;
 import java.util.ArrayList;
 
 /**
@@ -20,9 +20,9 @@ public class Logger {
      * @param drawnPebble pebble which was drawn
      * @param bagName bag which the pebble was drawn from
      */
-    public void writeLogDraw(Pebble drawnPebble, String bagName) {
+    public void writeLogDraw(Integer drawnPebble, String bagName) {
         logStream.write(playerName + " has drawn a "
-                    + Integer.toString(drawnPebble.getValue())
+                    + Integer.toString(drawnPebble)
                     + " from bag " + bagName +"\n");
     }
 
@@ -31,9 +31,9 @@ public class Logger {
      * @param discardedPebble pebble which was discarded
      * @param bagName bag which the pebble was discarded to
      */
-    public void writeLogDiscard(Pebble discardedPebble, String bagName) {
+    public void writeLogDiscard(Integer discardedPebble, String bagName) {
         logStream.write(playerName + " has discarded a "
-                + Integer.toString(discardedPebble.getValue())
+                + Integer.toString(discardedPebble)
                 + " to bag " + bagName +"\n");
     }
 
