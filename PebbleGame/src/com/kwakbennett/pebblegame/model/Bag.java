@@ -51,6 +51,7 @@ public class Bag {
      * @param pebbleList an ArrayList containing pebbles
      */
 //    pass em in at the start
+//    how will we move discarded pebbles back into original bags without such method?
 //    public void addPebbles(ArrayList<Pebble> pebbleList) {
 //        this.pebbles.addAll(pebbleList);
 //    }

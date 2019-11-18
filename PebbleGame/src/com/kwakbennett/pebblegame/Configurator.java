@@ -13,14 +13,10 @@ import java.util.*;
 public class Configurator {
 
     private int players;
-//    private ArrayList<ArrayList<Integer>> pebbleValues;
 
     public Configurator() {
     }
 
-//    public ArrayList<ArrayList<Integer>> getPebbleValues() {
-//        return pebbleValues;
-//    }
 
     public int getPlayers() {
         return players;
@@ -31,7 +27,6 @@ public class Configurator {
      */
     public void start() {
         this.players = this.askPlayers();
-//        this.pebbleValues = new ArrayList<>();
 
         //we make 6 very publicly accessible baggies
         Bag bagX = askPebbleValues("X");
@@ -50,11 +45,11 @@ public class Configurator {
         int noPlayers = 1;
 
         System.out.println("Please enter the number of players:");
-        //not the most elegant solution, feel free to improve/fix
+
         while (true) {
             try {
                 noPlayers = inScanner.nextInt();
-                if (noPlayers <= 0) { //Maybe this should be done by a separate validator class?
+                if (noPlayers <= 0) {
                     throw new IllegalArgumentException();
                 }
                 break;
@@ -68,6 +63,7 @@ public class Configurator {
 
     /**
      * Asks the user for a file containing pebble values
+     *
      * @param bagName name of the bag to display when asking user
      * @return ArrayList of integers containing pebble values
      */
@@ -75,20 +71,15 @@ public class Configurator {
         Scanner inScanner = new Scanner(System.in);
         Bag outputBag;
 
-        //again, not a very elegant solution, can fix/replace later
-//        thats chill dw
         System.out.println("Please enter location of bag " + bagName + " to load:");
+
         while (true) {
             try {
-                outputBag = fileToBag(inScanner.nextLine(), bagName);//IntegerImporter.importFromFile(inScanner.nextLine());
+                outputBag = fileToBag(inScanner.nextLine(), bagName);
                 break;
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
                 System.out.println("Please enter location of bag " + bagName + " to load:");
-            } catch (IOException e) {
-                System.out.println("Something went wrong when reading the file");
-                System.out.println("Please enter location of bag " + bagName + " to load:");
-
             }
         }
         return outputBag;
@@ -96,12 +87,14 @@ public class Configurator {
 
     //yeah not elegant to put it in the same one
     //pass the file into the scanner as arg with new meth
-    private Bag fileToBag(String fileLocation, String bagName) throws FileNotFoundException{
-        Scanner scanner = null;
+
+    //this better maybe?
+    private Bag fileToBag(String fileLocation, String bagName) throws IllegalArgumentException, IOException {
+/*        Scanner scanner = null;
         try {
             scanner = new Scanner(new File(fileLocation));
         } catch (FileNotFoundException e) {
-//            e.printStackTrace();
+            e.printStackTrace();
             throw new FileNotFoundException("Oof");
         }
         String[] weightsStr = scanner.next().split(",");
@@ -109,8 +102,14 @@ public class Configurator {
         for (String i : weightsStr){
             bagWeightsInts.add(Integer.parseInt(i));
         }
-//        System.out.println(Arrays.toString(bagWeightsInts.toArray()));
-        Bag bag = new Bag(bagWeightsInts,"X");
-        return bag;
+        Bag bag = new Bag(bagWeightsInts, "X");*/
+
+        ArrayList<Integer> bagWeightsInts = IntegerImporter.importFromFile(fileLocation);
+        for (int val : bagWeightsInts) {
+            if (val <= 0) {
+                throw new IllegalArgumentException("Integers in list must be strictly positive");
+            }
+        }
+        return new Bag(bagWeightsInts, "X");
     }
 }

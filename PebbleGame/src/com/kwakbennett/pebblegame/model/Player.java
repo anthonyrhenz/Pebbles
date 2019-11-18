@@ -10,6 +10,8 @@ import java.util.Random;
 public class Player implements Runnable{
 
     private static final Object lock = new Object();
+
+    //suggestion: 'LogStreamInterface output;' good practice which allows to later completely change output location/type
     BufferedWriter output;
     ArrayList<Integer> hand = new ArrayList<Integer>();
     Random random;
@@ -42,6 +44,10 @@ public class Player implements Runnable{
             //but if the game runs for too long then we become memory hog
             //these logs r probably gonna get real fat
             //so maybe staged buffers idk?
+
+            //buffered writer?
+            //since each player needs its own instance anyway should cause thread problems
+            //using memory would be a problem as the game should technically be able to run forever
 
             try {
                 this.output.write(this.playerName + " has drawn a 17 from bag Y\r\n"+this.playerName+" hand is " + this.hand.toString());
