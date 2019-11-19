@@ -42,12 +42,16 @@ class Configurator {
     private int askPlayers() {
         Scanner inScanner = new Scanner(System.in);
         this.noPlayers = 1;
+        String playerInput;
 
         System.out.println("Please enter the number of players:");
         while (true) {
             try {
-                noPlayers = inScanner.nextInt();
-                if (noPlayers <= 0) {
+                playerInput = inScanner.nextLine();
+                if (playerInput.equals("E")) {
+                    System.exit(0);
+                }
+                if (Integer.parseInt(playerInput) <= 0) {
                     throw new IllegalArgumentException();
                 }
                 break;
@@ -55,6 +59,7 @@ class Configurator {
                 System.out.println("Please enter a positive integer larger than 0");
             }
         }
+        noPlayers = Integer.parseInt(playerInput);
         return noPlayers;
     }
 
@@ -66,11 +71,15 @@ class Configurator {
     private Bag askPebbleValues(String bagName) {
         Scanner inScanner = new Scanner(System.in);
         Bag outputBag;
-
+        String playerInput;
         System.out.println("Please enter location of bag " + bagName + " to load:");
         while (true) {
             try {
-                outputBag = fileToBag(inScanner.nextLine(), bagName);
+                playerInput = inScanner.nextLine();
+                if (playerInput.equals("E")){
+                    System.exit(0);
+                }
+                outputBag = fileToBag(playerInput, bagName);
                 break;
             } catch (Exception e) {
                 System.out.println(e.getMessage());
