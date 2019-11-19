@@ -10,22 +10,23 @@ public class Main {
     public static volatile boolean gameWon = false;
 
     //main loop vibes
-    public static void main(String[] args) throws Exception {
-        // this text is taken directly from the specification PDF
+    public static void main(String[] args) {
         System.out.println("Welcome to the PebbleGame!\n"
                 + "You will be asked to enter the number of players\n"
                 + "And then for the location of of three files in turn containing comma separated integer values for the pebble weights.\n"
                 + "The integer values must be strictly positive.\n"
-                + "The game will then be simulated, and output written to files in this directory.\n\n");
+                + "The game will then be simulated, and output written to files in this directory.\n\n"
+                + "Type 'E' at any time to exit the program.\n\n");
 
         Configurator configurator = new Configurator();
         Bag[][] bags = configurator.start();
         int playerCount = configurator.getPlayers();
+        boolean shouldDiscardHighest = configurator.getShouldDiscardHighest();
 
         //create our list of players
         Player[] players = new Player[playerCount];
-        for (int i=0; i < playerCount; ++i) {
-            players[i] = new Player("player"+(i+1), "player"+(i+1)+"_output.txt", bags);
+        for (int i = 0; i < playerCount; ++i) {
+            players[i] = new Player("player" + (i + 1), "player" + (i + 1) + "_output.txt", bags, shouldDiscardHighest);
         }
 
         //start the player classes as threads implementing runnable

@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * Class for writing text to a given file
+ * Class for writing text logs to a given file
  */
 public class FileLogStream implements LogStreamInterface {
     private final BufferedWriter output;
@@ -20,15 +20,17 @@ public class FileLogStream implements LogStreamInterface {
     }
 
     /**
-     * adds text to file
+     * add text to file
+     *
      * @param log text to add to the file
      */
     @Override
-    public void write(String log) {
-        try {
-            this.output.write(log);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void write(String log) throws IOException {
+        this.output.write(log);
+    }
+
+    public void close() throws IOException {
+        this.output.close();
+
     }
 }

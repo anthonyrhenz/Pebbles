@@ -1,7 +1,8 @@
 package com.kwakbennett.pebblegame.model;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
+import com.kwakbennett.pebblegame.logger.FileLogStream;
+import com.kwakbennett.pebblegame.logger.LogStreamInterface;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,72 +10,87 @@ import java.util.Random;
 
 import static com.kwakbennett.pebblegame.Main.gameWon;
 
-public class Player implements Runnable{
+public class Player implements Runnable {
 
     //definitions
     private static final Object lock = new Object();
     private String playerName;
-    private BufferedWriter output;
+    private LogStreamInterface output;
     private ArrayList<Integer> hand = new ArrayList<>();
     private Random random;
     private Bag[][] bags;
+    private boolean shouldDiscardHighest;
 
     //constructors
-    public Player(String playerName, String logOutput, Bag[][] bags) throws IOException{
-        this.output = new BufferedWriter(new FileWriter(logOutput), 69690);
+    public Player(String playerName, String logOutput, Bag[][] bags, boolean shouldDiscardHighest) {
+        this.output = new FileLogStream(logOutput);
         this.random = new Random();
         this.playerName = playerName;
         this.bags = bags;
+        this.shouldDiscardHighest = shouldDiscardHighest;
 
         //load player hands at construction
-        for (int i = 0; i<11; ++i){
+        for (int i = 0; i < 11; ++i) {
             this.hand.add(bags[0][0].takeRandomPebble());
         }
     }
 
     //Methods
 
-    // discard a pebble. max hand size is 10, no buffering
-    private void removePebble(Bag bag){
+    /**
+     * discards a pebble from the bag
+     *
+     * @param bag bag that pebble gets discarded to
+     */
+    private void removePebble(Bag bag) {
         int pebble;
         synchronized (lock) {
-            //new idea - remove the largest pebble
-            pebble = this.hand.remove( this.hand.indexOf(Collections.max(this.hand)) );
+            if (shouldDiscardHighest) {
+                pebble = this.hand.remove(this.hand.indexOf(Collections.max(this.hand)));
+            } else {
+                pebble = this.hand.remove(random.nextInt(this.hand.size()));
+            }
 
             bag.addPebble(pebble);
 
         }
         // just going to write to file asynchronously
         try {
-            this.output.write(this.playerName + " has discarded a "+ pebble +" to bag "+bag.getName()+
-                    "\r\n"+this.playerName+" hand is " + this.hand.toString()+"\r\n");
-        }
-        catch (IOException e) {
-            System.out.println("Failed to log player action on "+ this.playerName);
+            this.output.write(this.playerName + " has discarded a " + pebble + " to bag " + bag.getName() +
+                    "\r\n" + this.playerName + " hand is " + this.hand.toString() + "\r\n");
+        } catch (IOException e) {
+            System.out.println("Failed to log player action on " + this.playerName);
         }
     }
 
-    //get a new pebble
-    private void takePebble(Bag bag){
+    /**
+     * take a random pebble from bag and put it in hand
+     *
+     * @param bag bag to take pebble from
+     */
+    private void takePebble(Bag bag) {
         int pebble;
-        synchronized (lock){
+        synchronized (lock) {
             pebble = bag.takeRandomPebble(); //take a random pebble from bag
             this.hand.add(pebble); //and put it in our hand
         }
         //Log pebble value here
         try {
-            this.output.write(this.playerName + " has drawn a "+ pebble +" from bag "+bag.getName()+
-                    "\r\n"+this.playerName+" hand is " + this.hand.toString()+"\r\n");
-        }
-        catch (IOException e) {
-            System.out.println("Failed to log player action on "+ this.playerName);
+            this.output.write(this.playerName + " has drawn a " + pebble + " from bag " + bag.getName() +
+                    "\r\n" + this.playerName + " hand is " + this.hand.toString() + "\r\n");
+        } catch (IOException e) {
+            System.out.println("Failed to log player action on " + this.playerName);
         }
     }
 
-    //check if this thread has won
+    /**
+     * check if player has a winning hand
+     *
+     * @return true if player wins, otherwise false
+     */
     private boolean checkWin() {
         int sum = 0;
-        for(int weight : this.hand) sum += weight;
+        for (int weight : this.hand) sum += weight;
         return sum == 100;
     }
 
@@ -84,11 +100,10 @@ public class Player implements Runnable{
         removePebble(bags[0][0]);
         //System.out.println(hand.stream().map(Object::toString).collect(Collectors.joining(", "))); //print player hand
 
-        //lets go
         int randomBag;
         while (!gameWon) {
             //check if win to terminate
-            if (checkWin()){
+            if (checkWin()) {
                 gameWon = true;
                 System.out.println(this.playerName + " has won with hand " + this.hand);
                 break;
@@ -104,8 +119,7 @@ public class Player implements Runnable{
                 if (bags[0][randomBag].isEmpty() && bags[1][randomBag].isEmpty()) {
                     //if both bags of the pair are empty, then we choose a different pair
                     randomBag = random.nextInt(3);
-                }
-                else if (bags[0][randomBag].isEmpty()) {
+                } else if (bags[0][randomBag].isEmpty()) {
                     //otherwise we refill and proceed with our choice
                     bags[1][randomBag].movePebbles(bags[0][randomBag]);
                 }

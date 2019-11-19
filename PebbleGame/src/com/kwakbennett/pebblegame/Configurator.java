@@ -11,26 +11,35 @@ import java.util.*;
  */
 class Configurator {
     private int noPlayers;
+    private boolean ShouldDiscardHighest;
 
     int getPlayers() {
         return noPlayers;
     }
 
+    boolean getShouldDiscardHighest() {
+        return ShouldDiscardHighest;
+    }
+
     /**
-     * Asks user for number of players and pebble values for each bag
+     * Ask user for number of players and pebble values for each bag
+     *
+     * @return list of bag pairs
      */
     Bag[][] start() {
         this.noPlayers = askPlayers();
         Bag[][] bags = new Bag[2][3];
 
-        String[] blacks = {"X","Y","Z"};
-        String[] whites = {"A","B","C"};
+        String[] blacks = {"X", "Y", "Z"};
+        String[] whites = {"A", "B", "C"};
 
         //group of bags at [0][n] are black, group at [1][n] are corresponding white bags
-        for (int i = 0; i<3; ++i){
+        for (int i = 0; i < 3; ++i) {
             bags[0][i] = askPebbleValues(blacks[i]); //Bags stored at array index 0 are the black bags
             bags[1][i] = new Bag(whites[i]);  //Bags at index 1 are the white counterparts, with matching indices
         }
+
+        this.ShouldDiscardHighest = askDiscardHighest();
         return bags;
     }
 
@@ -64,7 +73,8 @@ class Configurator {
     }
 
     /**
-     * Asks the user for a file containing pebble values
+     * Ask the user for a file containing pebble values
+     *
      * @param bagName name of the bag to display when asking user
      * @return ArrayList of integers containing pebble values
      */
@@ -76,7 +86,7 @@ class Configurator {
         while (true) {
             try {
                 playerInput = inScanner.nextLine();
-                if (playerInput.equals("E")){
+                if (playerInput.equals("E")) {
                     System.exit(0);
                 }
                 outputBag = fileToBag(playerInput, bagName);
@@ -89,7 +99,36 @@ class Configurator {
         return outputBag;
     }
 
-    //takes an input file and puts it into a named and filled bag
+    /**
+     * Ask whether players should always discard the highest value pebble
+     *
+     * @return true if yes, otherwise false
+     */
+    private boolean askDiscardHighest() {
+        Scanner inScanner = new Scanner(System.in);
+        System.out.println("Would you like players to always discard the highest value pebble instead of discarding randomly? [Y/N]");
+        while (true) {
+            String playerInput = inScanner.nextLine();
+            if (playerInput.equals("E")) {
+                System.exit(0);
+            } else if (playerInput.equals("Y")) {
+                return true;
+            } else if (playerInput.equals("N")) {
+                return false;
+            } else {
+                System.out.println("Please reply with either Y or N");
+            }
+        }
+
+    }
+
+    /**
+     * Take an input file and put it into filled an named bag
+     *
+     * @param fileLocation location of the input file
+     * @param bagName      name of bag to create
+     * @return bag containing pebble values from file
+     */
     private Bag fileToBag(String fileLocation, String bagName) throws Exception {
         Scanner scanner;
         try {
@@ -103,20 +142,19 @@ class Configurator {
         //for ensuring the input is just a CSV of integers.
         //if this parseInt fails and we catch generic Exception, then we know it's an invalid input
         try {
-            for (String i : weightsStr){
+            for (String i : weightsStr) {
                 bagWeightsInts.add(Integer.parseInt(i));
             }
-        } catch (Exception e)
-        {
+        } catch (Exception e) {
             throw new Exception("Invalid input file. Please choose another file.");
         }
 
         //each black bag must have at least (11*number of players) pebbles
-        if (bagWeightsInts.size() < this.noPlayers*11) {
+        if (bagWeightsInts.size() < this.noPlayers * 11) {
             System.out.println(bagWeightsInts.size());
             System.out.println(this.noPlayers);
             throw new Exception("Input file is too small for number of players.");
         }
-        return new Bag(bagWeightsInts,bagName);
+        return new Bag(bagWeightsInts, bagName);
     }
 }

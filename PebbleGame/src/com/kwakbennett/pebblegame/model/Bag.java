@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.stream.Collectors;
 
+
+/**
+ * Bag class for pebble game
+ * contains a list of pebbles
+ */
 public class Bag {
     private ArrayList<Integer> pebbles;
     private String name; //name the bag X, Y, or Z to match
@@ -23,37 +28,51 @@ public class Bag {
         this.pebbles = new ArrayList<>(0); //empty arraylist ready for filling
     }
 
-    //gets the name of the bag for logging
+    /**
+     * gets the name of the bag
+     *
+     * @return bag name
+     */
     String getName() {
         return name;
     }
 
     /**
-     * Removes a random pebble from the bags's pebble list
+     * Take a random pebble from the bag
+     *
      * @return a random pebble from the pebble list
      */
     Integer takeRandomPebble() {
         return pebbles.remove(ran.nextInt(pebbles.size()));
     }
 
-    //add an integer to this pebble arraylist
+    /**
+     * Add a pebble to the pebble list
+     *
+     * @param pebble pebble to add
+     */
     void addPebble(Integer pebble) {
         pebbles.add(pebble);
     }
 
     //debug-ish to output the bag's arraylist contents as a string
-    public String asString(){
+    public String asString() {
         return pebbles.stream().map(Object::toString).collect(Collectors.joining(", "));
     }
 
-    //check if the bag is empty
-    boolean isEmpty(){
+    /**
+     * Check if the bag is empty
+     *
+     * @return true if empty, otherwise false
+     */
+    boolean isEmpty() {
         return pebbles.size() <= 0;
     }
 
     /**
-     * Takes the bag's pebbles and adds them to another bag
+     * Take the bag's pebbles and adds them to another bag
      * Should only ever run from a white bag
+     *
      * @param bag bag to add the pebbles to
      */
     void movePebbles(Bag bag) {
