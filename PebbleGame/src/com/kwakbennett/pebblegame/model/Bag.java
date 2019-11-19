@@ -2,6 +2,7 @@ package com.kwakbennett.pebblegame.model;
 
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 /**
  * Bag class, which can be configured to be black or white
@@ -21,13 +22,18 @@ public class Bag {
 //        this.pebbles = new ArrayList<>();
 //    }
 
+    // Constructor
     public Bag(ArrayList<Integer> pebbleValues, String bagName) {
         this.ran = new Random();
-        this.pebbles = new ArrayList<>();
+        this.pebbles = pebbleValues;
+        this.name = bagName;
+    }
 
-//        for (int pebbleValue : pebbleValues) {
-//            this.pebbles.add(new Pebble(pebbleValue));
-//        }
+    //Overload constructor for empty (white) bag
+    public Bag(String bagName) {
+        this.name = bagName;
+        this.ran = new Random();
+        this.pebbles = new ArrayList<>(0); //empty arraylist ready for filling
     }
 
     public String getName() {
@@ -41,27 +47,39 @@ public class Bag {
     public Integer takeRandomPebble() {
         return pebbles.remove(ran.nextInt(pebbles.size()));
     }
+    public Integer takeIndex0() {
+        return pebbles.remove(0);
+    }
 
     public void addPebble(Integer pebble) {
         pebbles.add(pebble);
+    }
+
+    public String asString(){
+        return pebbles.stream().map(Object::toString).collect(Collectors.joining(", "));
+    }
+
+    public boolean isEmpty(){
+        if (pebbles.size() <= 0) return true;
+        return false;
     }
 
     /**
      * Adds a list of pebbles to the bag's pebble list
      * @param pebbleList an ArrayList containing pebbles
      */
-//    pass em in at the start
-//    public void addPebbles(ArrayList<Pebble> pebbleList) {
+    //just pass em in when defined
+//    public void addPebbles(ArrayList<Integer> pebbleList) {
 //        this.pebbles.addAll(pebbleList);
 //    }
 
     /**
      * Takes the bag's pebbles and adds them to another bag
+     * Should only ever run from a white bag
      * @param bag bag to add the pebbles to
      */
-//    nah dw
-//    public void movePebbles(Bag bag) {
-//        bag.addPebbles(pebbles);
-//        pebbles.clear();
-//    }
+    public void movePebbles(Bag bag) {
+        bag.pebbles.addAll(this.pebbles);
+        this.pebbles.clear();
+    }
 }

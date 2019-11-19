@@ -1,5 +1,6 @@
 package com.kwakbennett.pebblegame;
 
+import com.kwakbennett.pebblegame.model.Bag;
 import com.kwakbennett.pebblegame.model.Player;
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 
@@ -23,8 +24,11 @@ import java.util.ArrayList;
 //everything goes in here
 public class Main {
 
+    //define volatile switch for finding winner
+    public static volatile boolean gameWon = false;
+
     //main loop vibes
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         // this text is taken directly from the specification PDF
         System.out.println("Welcome to the PebbleGame!\n"
                 + "You will be asked to enter the number of players\n"
@@ -37,7 +41,7 @@ public class Main {
          * responsible for setting up all the bags and players etc and then just call that class here
          */
         Configurator configurator = new Configurator();
-        configurator.start();
+        Bag[][] bags = configurator.start();
         int playerCount = configurator.getPlayers();
 //        ArrayList<ArrayList<Integer>> pebbleValues = configurator.getPebbleValues();
 
@@ -46,13 +50,13 @@ public class Main {
         Player[] players = new Player[playerCount];
 
         for (int i=0; i < playerCount; ++i) {
-            players[i] = new Player("player"+(i+1), "player"+(i+1)+"_output.txt");
+            players[i] = new Player("player"+(i+1), "player"+(i+1)+"_output.txt", bags);
         }
 
         for (Player i : players) {
             new Thread(i).start();
         }
 
-        System.out.println(4);
+        System.out.println("End of main");
     }
 }

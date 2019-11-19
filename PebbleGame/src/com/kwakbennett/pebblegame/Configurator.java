@@ -5,6 +5,7 @@ import com.kwakbennett.pebblegame.model.Bag;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -13,6 +14,7 @@ import java.util.*;
 public class Configurator {
 
     private int players;
+    public int noPlayers;
 //    private ArrayList<ArrayList<Integer>> pebbleValues;
 
     public Configurator() {
@@ -29,15 +31,22 @@ public class Configurator {
     /**
      * Asks user for number of players and pebble values for each bag
      */
-    public void start() {
+    public Bag[][] start() throws Exception {
         this.players = this.askPlayers();
 //        this.pebbleValues = new ArrayList<>();
 
         //we make 6 very publicly accessible baggies
-        Bag bagX = askPebbleValues("X");
-        askPebbleValues("Y");
-        askPebbleValues("Z");
+        //empty array for empty bags
+        Bag[][] bags = new Bag[2][3];
+        ArrayList<ArrayList<Bag>> empty = new ArrayList<ArrayList<Bag>>();
 
+        String[] blacks = {"X","Y","Z"};
+        String[] whites = {"A","B","C"};
+        for (int i = 0; i<3; ++i){
+            bags[0][i] = askPebbleValues(blacks[i]); //Bags stored at array index 0 are the black bags
+            bags[1][i] = new Bag(whites[i]);  //Bags at index 1 are the white counterparts, with matching indices
+        }
+        return bags;
     }
 
     /**
@@ -47,7 +56,7 @@ public class Configurator {
      */
     private int askPlayers() {
         Scanner inScanner = new Scanner(System.in);
-        int noPlayers = 1;
+        this.noPlayers = 1;
 
         System.out.println("Please enter the number of players:");
         //not the most elegant solution, feel free to improve/fix
@@ -71,7 +80,7 @@ public class Configurator {
      * @param bagName name of the bag to display when asking user
      * @return ArrayList of integers containing pebble values
      */
-    public Bag askPebbleValues(String bagName) {
+    public Bag askPebbleValues(String bagName) throws Exception {
         Scanner inScanner = new Scanner(System.in);
         Bag outputBag;
 
@@ -86,9 +95,12 @@ public class Configurator {
                 System.out.println(e.getMessage());
                 System.out.println("Please enter location of bag " + bagName + " to load:");
             } catch (IOException e) {
-                System.out.println("Something went wrong when reading the file");
+                System.out.println(e.getMessage());
                 System.out.println("Please enter location of bag " + bagName + " to load:");
-
+            }
+            catch (Exception e) {
+                System.out.println(e.getMessage());
+                System.out.println("Please enter location of bag " + bagName + " to load:");
             }
         }
         return outputBag;
@@ -96,20 +108,34 @@ public class Configurator {
 
     //yeah not elegant to put it in the same one
     //pass the file into the scanner as arg with new meth
-    private Bag fileToBag(String fileLocation, String bagName) throws FileNotFoundException{
+    private Bag fileToBag(String fileLocation, String bagName) throws Exception {
         Scanner scanner = null;
         try {
             scanner = new Scanner(new File(fileLocation));
         } catch (FileNotFoundException e) {
 //            e.printStackTrace();
-            throw new FileNotFoundException("Oof");
+            throw new FileNotFoundException("File not found at given location.");
         }
         String[] weightsStr = scanner.next().split(",");
         ArrayList<Integer> bagWeightsInts = new ArrayList<Integer>(weightsStr.length);
-        for (String i : weightsStr){
-            bagWeightsInts.add(Integer.parseInt(i));
+
+        //for ensuring the input is just a CSV of integers.
+        //if this parseInt fails and we catch generic Exception, then we know it's an invalid input
+        try {
+            for (String i : weightsStr){
+                bagWeightsInts.add(Integer.parseInt(i));
+            }
+        } catch (Exception e)
+        {
+            throw new Exception("Invalid input file. Please choose another file.");
         }
-//        System.out.println(Arrays.toString(bagWeightsInts.toArray()));
+
+        //each black bag must have at least (11*number of players) pebbles
+        if (bagWeightsInts.size() < this.noPlayers*11) {
+            System.out.println(bagWeightsInts.size());
+            System.out.println(this.noPlayers);
+            throw new Exception("Input file is too small for number of players.");
+        }
         Bag bag = new Bag(bagWeightsInts,"X");
         return bag;
     }
