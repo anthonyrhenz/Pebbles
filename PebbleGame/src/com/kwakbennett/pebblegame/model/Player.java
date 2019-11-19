@@ -6,18 +6,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
-import java.util.stream.Collectors;
 
 import static com.kwakbennett.pebblegame.Main.gameWon;
 
 public class Player implements Runnable{
 
+    //definitions
     private static final Object lock = new Object();
-    String playerName;
-    BufferedWriter output;
-    ArrayList<Integer> hand = new ArrayList<Integer>();
-    Random random;
-    Bag bags[][];
+    private String playerName;
+    private BufferedWriter output;
+    private ArrayList<Integer> hand = new ArrayList<>();
+    private Random random;
+    private Bag[][] bags;
 
     //constructors
     public Player(String playerName, String logOutput, Bag[][] bags) throws IOException{
@@ -34,57 +34,51 @@ public class Player implements Runnable{
 
     //Methods
 
-    /** I'm moving the methods for bag access over to the players
-     * since they need to be synchronized, not the bags - bags will do themselves if these are sync'd
-     */
-
-    //according to the docs, first discard a pebble. max hand size is 10, no buffering
-    void removePebble(Bag bag){
+    // discard a pebble. max hand size is 10, no buffering
+    private void removePebble(Bag bag){
         int pebble;
         synchronized (lock) {
-            //get random pebble, store, and remove from hand
-//            int pebble = this.hand.remove(random.nextInt(this.hand.size()));
             //new idea - remove the largest pebble
-            pebble = this.hand.remove(this.hand.indexOf(Collections.max(this.hand)));
+            pebble = this.hand.remove( this.hand.indexOf(Collections.max(this.hand)) );
+
             bag.addPebble(pebble);
 
-            //store action to file
-            //oke so this one we gonna think about a bit
-            //either we store the logs to memory using it as a RAMcache which is very fast
-            //but if the game runs for too long then we become memory hog
-            //these logs r probably gonna get real fat
-            //so maybe staged buffers idk?
-
         }
-        //im just going to write to file asynchronously
+        // just going to write to file asynchronously
         try {
-            this.output.write(this.playerName + " has drawn a "+ pebble +" from bag "+bag.getName()+"\r\n"+this.playerName+" hand is " + this.hand.toString());
+            this.output.write(this.playerName + " has discarded a "+ pebble +" to bag "+bag.getName()+
+                    "\r\n"+this.playerName+" hand is " + this.hand.toString()+"\r\n");
         }
         catch (IOException e) {
             System.out.println("Failed to log player action on "+ this.playerName);
         }
     }
 
-    void takePebble(Bag bag){
+    //get a new pebble
+    private void takePebble(Bag bag){
+        int pebble;
         synchronized (lock){
-            int pebble = bag.takeRandomPebble(); //take a random pebble from bag
+            pebble = bag.takeRandomPebble(); //take a random pebble from bag
             this.hand.add(pebble); //and put it in our hand
         }
+        //Log pebble value here
         try {
-            this.output.write(this.playerName + " has drawn a 17 from bag Y\r\n"+this.playerName+" hand is " + this.hand.toString());
+            this.output.write(this.playerName + " has drawn a "+ pebble +" from bag "+bag.getName()+
+                    "\r\n"+this.playerName+" hand is " + this.hand.toString()+"\r\n");
         }
         catch (IOException e) {
             System.out.println("Failed to log player action on "+ this.playerName);
         }
     }
 
-    boolean checkWin() {
+    //check if this thread has won
+    private boolean checkWin() {
         int sum = 0;
         for(int weight : this.hand) sum += weight;
-        if (sum == 100) return true;
-        return false;
+        return sum == 100;
     }
 
+    //main loop over run
     @Override
     public void run() {
         removePebble(bags[0][0]);
@@ -93,14 +87,14 @@ public class Player implements Runnable{
         //lets go
         int randomBag;
         while (!gameWon) {
-            //check win and terminate
+            //check if win to terminate
             if (checkWin()){
                 gameWon = true;
                 System.out.println(this.playerName + " has won with hand " + this.hand);
                 break;
             }
 
-            //first we must toss a pebble into a random bag
+            //first we must get rid of a pebble into a random bag
             removePebble(bags[1][random.nextInt(3)]);
             //then we must take a new pebble from a random bag
             //select that bag
@@ -121,7 +115,7 @@ public class Player implements Runnable{
 
         }
 
-        //save our file to disk
+        //save our file to disk when game is over
         try {
             this.output.close();
         } catch (IOException e) {
