@@ -33,7 +33,7 @@ public class Bag {
      *
      * @return bag name
      */
-    String getName() {
+    public String getName() {
         return name;
     }
 
@@ -42,7 +42,8 @@ public class Bag {
      *
      * @return a random pebble from the pebble list
      */
-    Integer takeRandomPebble() {
+    public Integer takeRandomPebble() {
+//        System.out.println(pebbles.size());
         return pebbles.remove(ran.nextInt(pebbles.size()));
     }
 
@@ -51,7 +52,7 @@ public class Bag {
      *
      * @param pebble pebble to add
      */
-    void addPebble(Integer pebble) {
+    public void addPebble(Integer pebble) {
         pebbles.add(pebble);
     }
 
@@ -65,7 +66,7 @@ public class Bag {
      *
      * @return true if empty, otherwise false
      */
-    boolean isEmpty() {
+    public boolean isEmpty() {
         return pebbles.size() <= 0;
     }
 
@@ -75,7 +76,7 @@ public class Bag {
      *
      * @param bag bag to add the pebbles to
      */
-    void movePebbles(Bag bag) {
+    public void movePebbles(Bag bag) {
         bag.pebbles.addAll(this.pebbles);
         this.pebbles.clear();
     }

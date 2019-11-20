@@ -10,6 +10,11 @@ import java.util.Random;
 
 import static com.kwakbennett.pebblegame.Main.gameWon;
 
+/**
+ * Specification wanted this nested for some reason
+ * Has been moved over to main, and modifications made for access
+ */
+
 public class Player implements Runnable {
 
     //definitions
