@@ -9,3 +9,24 @@ If another player is taking from a bag, other players may not access it. Actions
 <h2>Authors</h2>
 This program was written with the pair programming paradigm in order to reduce errors and develop more efficiently.<br>
 Anthony Bennett and Jakub Kwak <3
+
+<h2>Config Files</h2>
+The program allows the user to import game configuration from a text file.<br>
+The file should consist of:<br>
+<br>
+<i>Number of players<br>
+Bag 1 file location<br>
+Bag 2 file location<br>
+Bag 3 file location<br>
+Should players always discard the highest pebble? (true/false)</i><br>
+<br>
+Example file:<br>
+3<br>
+file.txt<br>
+file.txt<br>
+file.txt<br>
+true
+
+
+
+
