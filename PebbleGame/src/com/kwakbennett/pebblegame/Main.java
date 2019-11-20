@@ -8,7 +8,7 @@ import com.kwakbennett.pebblegame.logger.LogStreamInterface;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 // Everything runs from here
 public class Main {
@@ -24,21 +24,21 @@ public class Main {
         private String playerName;
         private LogStreamInterface output;
         private ArrayList<Integer> hand = new ArrayList<>();
-        private Random random;
         private Bag[][] bags;
         private boolean shouldDiscardHighest;
+        private int randomBag;
 
         //constructors
         Player(String playerName, String logOutput, Bag[][] bags, boolean shouldDiscardHighest) {
             this.output = new FileLogStream(logOutput);
-            this.random = new Random();
             this.playerName = playerName;
             this.bags = bags;
             this.shouldDiscardHighest = shouldDiscardHighest;
 
             //load player hands at construction
-            for (int i = 0; i < 11; ++i) {
-                this.hand.add(bags[0][0].takeRandomPebble());
+            randomBag = ThreadLocalRandom.current().nextInt( 0, 3 );
+            for (int i = 0; i < 10; ++i) {
+                this.hand.add(bags[0][randomBag].takeRandomPebble());
             }
         }
 
@@ -55,7 +55,7 @@ public class Main {
                 if (shouldDiscardHighest) {
                     pebble = this.hand.remove(this.hand.indexOf(Collections.max(this.hand)));
                 } else {
-                    pebble = this.hand.remove(random.nextInt(this.hand.size()));
+                    pebble = this.hand.remove( ThreadLocalRandom.current().nextInt( 0, this.hand.size() ));
                 }
 
                 bag.addPebble(pebble);
@@ -98,16 +98,23 @@ public class Main {
         private boolean checkWin() {
             int sum = 0;
             for (int weight : this.hand) sum += weight;
-            return sum == 100;
+            if (sum == 100) {
+                try {
+                    this.output.write(this.playerName+" has won the game with hand " + this.hand.toString());
+                } catch (IOException e) {
+                    System.out.println("Failed to log player win: " + e.getMessage());
+                }
+                return true;
+            }
+            return false;
         }
 
         //main loop over run
         @Override
         public void run() {
-            removePebble(bags[0][0]);
+//            removePebble(bags[0][0]);
             //System.out.println(hand.stream().map(Object::toString).collect(Collectors.joining(", "))); //print player hand
 
-            int randomBag;
             while (!gameWon) {
                 //check if win to terminate
                 if (checkWin()) {
@@ -116,23 +123,20 @@ public class Main {
                     break;
                 }
 
-                //first we must get rid of a pebble into a random bag
-                removePebble(bags[1][random.nextInt(3)]);
+                //first we must get rid of a pebble into the bag we last took from
+                removePebble(bags[1][randomBag]);
                 //then we must take a new pebble from a random bag
                 //select that bag
-                randomBag = random.nextInt(3);
+                randomBag = ThreadLocalRandom.current().nextInt( 0, 3 );
                 //first check if the bag's empty though, so we can refill it
                 synchronized (lock) {
-                    if (bags[0][randomBag].isEmpty() && bags[1][randomBag].isEmpty()) {
-                        //if both bags of the pair are empty, then we choose a different pair
-                        randomBag = random.nextInt(3);
-                    } else if (bags[0][randomBag].isEmpty()) {
-                        //otherwise we refill and proceed with our choice
+                    if (bags[0][randomBag].isEmpty()) {
+                        // refill and proceed with our choice
                         bags[1][randomBag].movePebbles(bags[0][randomBag]);
                     }
+                    //now we take a pebble from said bag
+                    takePebble(bags[0][randomBag]);
                 }
-                //now we take a pebble from said bag
-                takePebble(bags[0][randomBag]);
 
             }
 

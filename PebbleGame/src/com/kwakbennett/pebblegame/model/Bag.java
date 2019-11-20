@@ -1,7 +1,7 @@
 package com.kwakbennett.pebblegame.model;
 
 import java.util.ArrayList;
-import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
 
@@ -12,11 +12,9 @@ import java.util.stream.Collectors;
 public class Bag {
     private ArrayList<Integer> pebbles;
     private String name; //name the bag X, Y, or Z to match
-    private Random ran;
 
     // Constructor
     public Bag(ArrayList<Integer> pebbleValues, String bagName) {
-        this.ran = new Random();
         this.pebbles = pebbleValues;
         this.name = bagName;
     }
@@ -24,7 +22,6 @@ public class Bag {
     //Overload constructor for empty (white) bag
     public Bag(String bagName) {
         this.name = bagName;
-        this.ran = new Random();
         this.pebbles = new ArrayList<>(0); //empty arraylist ready for filling
     }
 
@@ -44,7 +41,9 @@ public class Bag {
      */
     public int takeRandomPebble() {
 //        System.out.println(pebbles.size());
-        return pebbles.remove(ran.nextInt(pebbles.size()));
+        //return pebbles.remove(ran.nextInt(pebbles.size()));
+        //random is not threadsafe.
+        return this.pebbles.remove( ThreadLocalRandom.current().nextInt( 0, this.pebbles.size() ) );
     }
 
     /**
