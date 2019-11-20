@@ -42,7 +42,7 @@ public class Bag {
      *
      * @return a random pebble from the pebble list
      */
-    public Integer takeRandomPebble() {
+    public int takeRandomPebble() {
 //        System.out.println(pebbles.size());
         return pebbles.remove(ran.nextInt(pebbles.size()));
     }
