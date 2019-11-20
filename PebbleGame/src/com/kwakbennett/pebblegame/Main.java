@@ -1,12 +1,10 @@
 package com.kwakbennett.pebblegame;
 
 import com.kwakbennett.pebblegame.model.Bag;
-import com.kwakbennett.pebblegame.model.Player;
 
 import com.kwakbennett.pebblegame.logger.FileLogStream;
 import com.kwakbennett.pebblegame.logger.LogStreamInterface;
 
-import javax.sound.midi.SysexMessage;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -162,7 +160,8 @@ public class Main {
 
         while (keepPlaying) {
             gameWon = false;
-            Bag[][] bags = configurator.start();
+            configurator.start();
+            Bag[][] bags = configurator.getBags();
             int playerCount = configurator.getPlayers();
             boolean shouldDiscardHighest = configurator.getShouldDiscardHighest();
 
@@ -172,13 +171,15 @@ public class Main {
                 players[i] = new Player("player" + (i + 1), "player" + (i + 1) + "_output.txt", bags, shouldDiscardHighest);
             }
 
-            //start the player classes as threads implementing runnable
+            //save and start the player classes as threads implementing runnable
             ArrayList<Thread> threads = new ArrayList<>();
             for (Player i : players) {
                 threads.add(new Thread(i));
+                //get most recently added thread and start it
                 threads.get(threads.size() - 1).start();
             }
 
+            //wait for threads to finish
             for (Thread thread : threads) {
                 try {
                     thread.join();

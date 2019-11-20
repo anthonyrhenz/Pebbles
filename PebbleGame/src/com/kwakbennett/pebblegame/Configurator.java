@@ -9,26 +9,26 @@ import java.util.*;
 /**
  * Class for game configuration using console
  */
-class Configurator {
+public class Configurator {
     private int noPlayers;
-    private boolean ShouldDiscardHighest;
+    private boolean shouldDiscardHighest;
+    private Bag[][] bags;
 
     int getPlayers() {
         return noPlayers;
     }
 
     boolean getShouldDiscardHighest() {
-        return ShouldDiscardHighest;
+        return shouldDiscardHighest;
     }
 
     /**
      * Ask user for number of players and pebble values for each bag
-     *
-     * @return list of bag pairs
      */
-    Bag[][] start() {
+    void start() {
         this.noPlayers = askPlayers();
-        Bag[][] bags = new Bag[2][3];
+
+        this.bags = new Bag[2][3];
 
         String[] blacks = {"X", "Y", "Z"};
         String[] whites = {"A", "B", "C"};
@@ -38,8 +38,10 @@ class Configurator {
             bags[0][i] = askPebbleValues(blacks[i]); //Bags stored at array index 0 are the black bags
             bags[1][i] = new Bag(whites[i]);  //Bags at index 1 are the white counterparts, with matching indices
         }
+        this.shouldDiscardHighest = askDiscardHighest();
+    }
 
-        this.ShouldDiscardHighest = askDiscardHighest();
+    public Bag[][] getBags() {
         return bags;
     }
 
@@ -131,12 +133,12 @@ class Configurator {
      * @param bagName      name of bag to create
      * @return bag containing pebble values from file
      */
-    private Bag fileToBag(String fileLocation, String bagName) throws Exception {
+    public Bag fileToBag(String fileLocation, String bagName) throws Exception {
         Scanner scanner;
         try {
             scanner = new Scanner(new File(fileLocation));
         } catch (FileNotFoundException e) {
-            throw new FileNotFoundException("File not found at given location.");
+            throw new FileNotFoundException("File not found at given location: " + fileLocation);
         }
         String[] weightsStr = scanner.next().split(",");
         ArrayList<Integer> bagWeightsInts = new ArrayList<>(weightsStr.length);
@@ -184,3 +186,4 @@ class Configurator {
         }
     }
 }
+

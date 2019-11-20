@@ -2,18 +2,24 @@ package com.kwakbennett.pebblegame.test;
 
 import com.kwakbennett.pebblegame.model.Bag;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
-class BagTest {
+import static org.junit.Assert.*;
+
+public class BagTest {
 
     @Test
     public void isEmptyTest() {
         Bag emptyBag = new Bag("Empty Bag");
-        Bag nonEmptyBag = new Bag(new ArrayList<>(Collections.singletonList(1)), "Non-Empty Bag");
 
         assertTrue(emptyBag.isEmpty());
+    }
+    @Test
+    public void isNotEmptyTest() {
+        Bag nonEmptyBag = new Bag(new ArrayList<>(Collections.singletonList(1)), "Non-Empty Bag");
+
         assertFalse(nonEmptyBag.isEmpty());
     }
 
