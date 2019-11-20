@@ -14,10 +14,10 @@ import java.util.concurrent.ThreadLocalRandom;
 public class Main {
 
     //define accessible volatile switch for finding winner
-    public static volatile boolean gameWon = false;
+    static volatile boolean gameWon = false;
 
     //define player class as nested
-    static class Player implements Runnable {
+    public static class Player implements Runnable {
 
         //definitions
         private static final Object lock = new Object();
@@ -29,7 +29,7 @@ public class Main {
         private int randomBag;
 
         //constructors
-        Player(String playerName, String logOutput, Bag[][] bags, boolean shouldDiscardHighest) {
+        public Player(String playerName, String logOutput, Bag[][] bags, boolean shouldDiscardHighest) {
             this.output = new FileLogStream(logOutput);
             this.playerName = playerName;
             this.bags = bags;
@@ -49,7 +49,7 @@ public class Main {
          *
          * @param bag bag that pebble gets discarded to
          */
-        private void removePebble(Bag bag) {
+        public void removePebble(Bag bag) {
             int pebble;
             synchronized (lock) {
                 if (shouldDiscardHighest) {
@@ -75,7 +75,7 @@ public class Main {
          *
          * @param bag bag to take pebble from
          */
-        private void takePebble(Bag bag) {
+        public void takePebble(Bag bag) {
             int pebble;
             synchronized (lock) {
                 pebble = bag.takeRandomPebble(); //take a random pebble from bag
@@ -95,7 +95,7 @@ public class Main {
          *
          * @return true if player wins, otherwise false
          */
-        private boolean checkWin() {
+        public boolean checkWin() {
             int sum = 0;
             for (int weight : this.hand) sum += weight;
             if (sum == 100) {

@@ -22,10 +22,20 @@ public class Configurator {
         return shouldDiscardHighest;
     }
 
+    Bag[][] getBags() {
+        return bags;
+    }
+
     /**
      * Ask user for number of players and pebble values for each bag
      */
     void start() {
+        //asks whether to import config from file
+        if (askShouldImport()) {
+            askImportFromConfig();
+            return;
+        }
+
         this.noPlayers = askPlayers();
 
         this.bags = new Bag[2][3];
@@ -41,10 +51,6 @@ public class Configurator {
         this.shouldDiscardHighest = askDiscardHighest();
     }
 
-    public Bag[][] getBags() {
-        return bags;
-    }
-
     /**
      * Asks the user for the number of players in the game
      *
@@ -54,8 +60,8 @@ public class Configurator {
         Scanner inScanner = new Scanner(System.in);
         this.noPlayers = 1;
         String playerInput;
-
         System.out.println("Please enter the number of players:");
+
         while (true) {
             try {
                 playerInput = inScanner.nextLine();
@@ -85,6 +91,7 @@ public class Configurator {
         Bag outputBag;
         String playerInput;
         System.out.println("Please enter location of bag " + bagName + " to load:");
+
         while (true) {
             try {
                 playerInput = inScanner.nextLine();
@@ -109,6 +116,7 @@ public class Configurator {
     private boolean askDiscardHighest() {
         Scanner inScanner = new Scanner(System.in);
         System.out.println("Would you like players to always discard the highest value pebble instead of discarding randomly? [Y/N]");
+
         while (true) {
             String playerInput = inScanner.nextLine();
             switch (playerInput) {
@@ -170,6 +178,7 @@ public class Configurator {
     boolean askPlayAgain() {
         Scanner inScanner = new Scanner(System.in);
         System.out.println("Would you like to play again? [Y/N]");
+
         while (true) {
             String playerInput = inScanner.nextLine();
             switch (playerInput) {
@@ -182,6 +191,95 @@ public class Configurator {
                 default:
                     System.out.println("Please reply with either Y or N");
                     break;
+            }
+        }
+    }
+
+    /**
+     * Configures game parameters to values in config file
+     *
+     * @param fileLocation location of config file
+     * @throws FileNotFoundException if file not found
+     */
+    void importFromConfig(String fileLocation) throws FileNotFoundException {
+        Scanner scanner;
+        try {
+            scanner = new Scanner(new File(fileLocation));
+        } catch (FileNotFoundException e) {
+            throw new FileNotFoundException("Config file not found at given location: " + fileLocation);
+        }
+
+        try {
+            this.noPlayers = Integer.parseInt(scanner.nextLine());
+            ArrayList<String> fileList = new ArrayList<>();
+
+            for (int i = 0; i < 3; i++) {
+                fileList.add(scanner.nextLine());
+            }
+
+            this.bags = new Bag[2][3];
+
+            String[] blacks = {"X", "Y", "Z"};
+            String[] whites = {"A", "B", "C"};
+
+            //group of bags at [0][n] are black, group at [1][n] are corresponding white bags
+            for (int i = 0; i < 3; ++i) {
+                bags[0][i] = fileToBag(fileList.get(i), blacks[i]);
+                bags[1][i] = new Bag(whites[i]);  //Bags at index 1 are the white counterparts, with matching indices
+            }
+
+            this.shouldDiscardHighest = Boolean.parseBoolean(scanner.nextLine());
+        } catch (Exception e) {
+            throw new IllegalArgumentException("Invalid config file");
+        }
+    }
+
+    /**
+     * Ask the user whether to input the configuration from file
+     *
+     * @return true if yes, otherwise false
+     */
+    boolean askShouldImport() {
+        Scanner inScanner = new Scanner(System.in);
+        System.out.println("Would you like to import configuration form file? [Y/N]");
+
+        while (true) {
+            String playerInput = inScanner.nextLine();
+            switch (playerInput) {
+                case "E":
+                    System.exit(0);
+                case "Y":
+                    return true;
+                case "N":
+                    return false;
+                default:
+                    System.out.println("Please reply with either Y or N");
+                    break;
+            }
+        }
+    }
+
+    /**
+     * Ask the user for the location of config file
+     */
+    void askImportFromConfig() {
+        Scanner inScanner = new Scanner(System.in);
+        String playerInput;
+        System.out.println("Please enter location of config file to load:");
+
+        while (true) {
+            try {
+                playerInput = inScanner.nextLine();
+
+                if (playerInput.equals("E")) {
+                    System.exit(0);
+                }
+
+                importFromConfig(playerInput);
+                break;
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+                System.out.println("Please enter location of config file to load:");
             }
         }
     }
