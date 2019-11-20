@@ -6,6 +6,7 @@ import com.kwakbennett.pebblegame.model.Player;
 import com.kwakbennett.pebblegame.logger.FileLogStream;
 import com.kwakbennett.pebblegame.logger.LogStreamInterface;
 
+import javax.sound.midi.SysexMessage;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -112,8 +113,8 @@ public class Main {
             while (!gameWon) {
                 //check if win to terminate
                 if (checkWin()) {
-                    gameWon = true;
                     System.out.println(this.playerName + " has won with hand " + this.hand);
+                    gameWon = true;
                     break;
                 }
 
@@ -157,19 +158,37 @@ public class Main {
                 + "Type 'E' at any time to exit the program.\n\n");
 
         Configurator configurator = new Configurator();
-        Bag[][] bags = configurator.start();
-        int playerCount = configurator.getPlayers();
-        boolean shouldDiscardHighest = configurator.getShouldDiscardHighest();
+        boolean keepPlaying = true;
 
-        //create our list of players
-        Player[] players = new Player[playerCount];
-        for (int i = 0; i < playerCount; ++i) {
-            players[i] = new Player("player" + (i + 1), "player" + (i + 1) + "_output.txt", bags, shouldDiscardHighest);
-        }
+        while (keepPlaying) {
+            gameWon = false;
+            Bag[][] bags = configurator.start();
+            int playerCount = configurator.getPlayers();
+            boolean shouldDiscardHighest = configurator.getShouldDiscardHighest();
 
-        //start the player classes as threads implementing runnable
-        for (Player i : players) {
-            new Thread(i).start();
+            //create our list of players
+            Player[] players = new Player[playerCount];
+            for (int i = 0; i < playerCount; ++i) {
+                players[i] = new Player("player" + (i + 1), "player" + (i + 1) + "_output.txt", bags, shouldDiscardHighest);
+            }
+
+            //start the player classes as threads implementing runnable
+            ArrayList<Thread> threads = new ArrayList<>();
+            for (Player i : players) {
+                threads.add(new Thread(i));
+                threads.get(threads.size() - 1).start();
+            }
+
+            for (Thread thread : threads) {
+                try {
+                    thread.join();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            //ask user if game should be played again
+            keepPlaying = configurator.askPlayAgain();
         }
     }
 }

@@ -109,14 +109,16 @@ class Configurator {
         System.out.println("Would you like players to always discard the highest value pebble instead of discarding randomly? [Y/N]");
         while (true) {
             String playerInput = inScanner.nextLine();
-            if (playerInput.equals("E")) {
-                System.exit(0);
-            } else if (playerInput.equals("Y")) {
-                return true;
-            } else if (playerInput.equals("N")) {
-                return false;
-            } else {
-                System.out.println("Please reply with either Y or N");
+            switch (playerInput) {
+                case "E":
+                    System.exit(0);
+                case "Y":
+                    return true;
+                case "N":
+                    return false;
+                default:
+                    System.out.println("Please reply with either Y or N");
+                    break;
             }
         }
 
@@ -156,5 +158,29 @@ class Configurator {
             throw new Exception("Input file is too small for number of players.");
         }
         return new Bag(bagWeightsInts, bagName);
+    }
+
+    /**
+     * ask the user whether to play the game again
+     *
+     * @return true if yes, otherwise false
+     */
+    boolean askPlayAgain() {
+        Scanner inScanner = new Scanner(System.in);
+        System.out.println("Would you like to play again? [Y/N]");
+        while (true) {
+            String playerInput = inScanner.nextLine();
+            switch (playerInput) {
+                case "E":
+                    System.exit(0);
+                case "Y":
+                    return true;
+                case "N":
+                    return false;
+                default:
+                    System.out.println("Please reply with either Y or N");
+                    break;
+            }
+        }
     }
 }
