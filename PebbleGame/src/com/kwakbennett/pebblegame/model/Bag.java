@@ -40,10 +40,7 @@ public class Bag {
      * @return a random pebble from the pebble list
      */
     public int takeRandomPebble() {
-//        System.out.println(pebbles.size());
-        //return pebbles.remove(ran.nextInt(pebbles.size()));
-        //random is not threadsafe.
-        return this.pebbles.remove( ThreadLocalRandom.current().nextInt( 0, this.pebbles.size() ) );
+        return this.pebbles.remove(ThreadLocalRandom.current().nextInt(0, this.pebbles.size()));
     }
 
     /**

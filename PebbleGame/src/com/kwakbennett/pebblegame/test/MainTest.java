@@ -6,8 +6,9 @@ import com.kwakbennett.pebblegame.model.Bag;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 
 import static org.junit.Assert.*;
 
@@ -16,30 +17,27 @@ public class MainTest {
     private Main.Player player;
 
     @Before
-    void createBagList() {
+    public void createBagList() {
         Configurator configurator = new Configurator();
-
-        //this is here until configurator has import from config method
-        this.bags = new Bag[2][1];
-        try {
-            bags[0][0] = configurator.fileToBag("t.txt", "bag");
-            bags[1][0] = new Bag("discardBag");
-        } catch (Exception e) {
-            fail("Test file 't.txt' missing or wrong");
+        try{
+            configurator.importFromConfig("test_config.txt");
+        } catch (FileNotFoundException e) {
+            fail("Could not import text config");
         }
+        this.bags = configurator.getBags();
     }
 
+
     @Before
-    void createPlayer() {
+    public void createPlayer() {
+        //re-creates player before every test
         this.player = new Main.Player("testPlayer","testPlayer.txt",this.bags,true);
     }
 
     @Test
     public void playerCheckTrueWin() {
-        this.player.takePebble(new Bag(new ArrayList<Integer>(Arrays.asList(100)),"bag"));
+        this.player.takePebble(new Bag(new ArrayList<>(Collections.singletonList(100)),"bag"));
         assertTrue(this.player.checkWin());
-        //clean up after itself
-        this.player.removePebble(bags[1][0]);
     }
 
     @Test

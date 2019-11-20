@@ -14,7 +14,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class Main {
 
     //define accessible volatile switch for finding winner
-    static volatile boolean gameWon = false;
+    private static volatile boolean gameWon = false;
 
     //define player class as nested
     public static class Player implements Runnable {
@@ -49,7 +49,7 @@ public class Main {
          *
          * @param bag bag that pebble gets discarded to
          */
-        public void removePebble(Bag bag) {
+        void removePebble(Bag bag) {
             int pebble;
             synchronized (lock) {
                 if (shouldDiscardHighest) {

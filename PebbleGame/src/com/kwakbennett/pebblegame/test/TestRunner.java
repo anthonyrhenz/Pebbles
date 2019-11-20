@@ -6,8 +6,9 @@ import org.junit.runner.notification.Failure;
 
 public class TestRunner {
     public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(BagTest.class);//put all test classes here
+        Result result = JUnitCore.runClasses(BagTest.class, ConfiguratorTest.class);//put all test classes here
 
+        //get all failures and print to console
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());
         }

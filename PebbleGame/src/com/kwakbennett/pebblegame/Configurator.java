@@ -14,15 +14,16 @@ public class Configurator {
     private boolean shouldDiscardHighest;
     private Bag[][] bags;
 
-    int getPlayers() {
+    //it says it could be package-private but must be public for testing
+    public int getPlayers() {
         return noPlayers;
     }
 
-    boolean getShouldDiscardHighest() {
+    public boolean getShouldDiscardHighest() {
         return shouldDiscardHighest;
     }
 
-    Bag[][] getBags() {
+    public Bag[][] getBags() {
         return bags;
     }
 
@@ -141,7 +142,7 @@ public class Configurator {
      * @param bagName      name of bag to create
      * @return bag containing pebble values from file
      */
-    public Bag fileToBag(String fileLocation, String bagName) throws Exception {
+    private Bag fileToBag(String fileLocation, String bagName) throws Exception {
         Scanner scanner;
         try {
             scanner = new Scanner(new File(fileLocation));
@@ -201,7 +202,7 @@ public class Configurator {
      * @param fileLocation location of config file
      * @throws FileNotFoundException if file not found
      */
-    void importFromConfig(String fileLocation) throws FileNotFoundException {
+    public void importFromConfig(String fileLocation) throws FileNotFoundException {
         Scanner scanner;
         try {
             scanner = new Scanner(new File(fileLocation));
@@ -239,7 +240,7 @@ public class Configurator {
      *
      * @return true if yes, otherwise false
      */
-    boolean askShouldImport() {
+    private boolean askShouldImport() {
         Scanner inScanner = new Scanner(System.in);
         System.out.println("Would you like to import configuration form file? [Y/N]");
 
@@ -262,7 +263,7 @@ public class Configurator {
     /**
      * Ask the user for the location of config file
      */
-    void askImportFromConfig() {
+    private void askImportFromConfig() {
         Scanner inScanner = new Scanner(System.in);
         String playerInput;
         System.out.println("Please enter location of config file to load:");

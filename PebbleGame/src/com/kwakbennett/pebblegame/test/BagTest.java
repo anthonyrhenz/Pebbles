@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-import static org.hamcrest.CoreMatchers.anyOf;
 import static org.junit.Assert.*;
 
 public class BagTest {
@@ -17,6 +16,7 @@ public class BagTest {
         Bag emptyBag = new Bag("Empty Bag");
         assertTrue(emptyBag.isEmpty());
     }
+
     @Test
     public void isEmptyReturnsFalse() {
         Bag nonEmptyBag = new Bag(new ArrayList<>(Collections.singletonList(1)), "Non-Empty Bag");
@@ -31,13 +31,10 @@ public class BagTest {
         assertTrue(testBag.isEmpty());
     }
 
-    @Test void takeRandomPebbleTakesAllPebbles() {
-        Bag testBag = new Bag(new ArrayList<>(Arrays.asList(1,2,3)), "Test Bag");
-        for (int i = 0; i > 3; i++) {
-            assertFalse(testBag.isEmpty());
-            testBag.takeRandomPebble();
-            assertFalse(testBag.isEmpty());
-            testBag.takeRandomPebble();
+    @Test
+    public void takeRandomPebbleTakesAllPebbles() {
+        Bag testBag = new Bag(new ArrayList<>(Arrays.asList(1, 2, 3)), "Test Bag");
+        for (int i = 0; i < 3; i++) {
             assertFalse(testBag.isEmpty());
             testBag.takeRandomPebble();
         }
