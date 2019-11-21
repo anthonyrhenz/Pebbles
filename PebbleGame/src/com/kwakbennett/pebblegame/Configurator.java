@@ -1,8 +1,6 @@
 package com.kwakbennett.pebblegame;
 
-import com.kwakbennett.pebblegame.graphical.gui;
 import com.kwakbennett.pebblegame.model.Bag;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -208,7 +206,7 @@ public class Configurator {
      * @param fileLocation location of config file
      * @throws FileNotFoundException if file not found
      */
-    public static Bag[][] importFromConfig(String fileLocation) throws FileNotFoundException {
+    public Bag[][] importFromConfig(String fileLocation) throws FileNotFoundException {
         Scanner scanner;
         try {
             scanner = new Scanner(new File(fileLocation));

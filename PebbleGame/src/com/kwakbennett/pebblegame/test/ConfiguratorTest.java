@@ -20,7 +20,7 @@ public class ConfiguratorTest {
     @Test
     public void canImportPlayerCount() {
         try {
-            Configurator.importFromConfig("test_config.txt");
+            configurator.importFromConfig("test_config.txt");
         } catch (FileNotFoundException e) {
             fail("Config file not found");
         }
@@ -31,7 +31,7 @@ public class ConfiguratorTest {
     @Test
     public void canImportDiscardStrategy() {
         try {
-            Configurator.importFromConfig("test_config.txt");
+            configurator.importFromConfig("test_config.txt");
         } catch (FileNotFoundException e) {
             fail("Config file not found");
         }
@@ -42,7 +42,7 @@ public class ConfiguratorTest {
     @Test
     public void canImportBags() {
         try {
-            Configurator.importFromConfig("test_config.txt");
+            configurator.importFromConfig("test_config.txt");
         } catch (FileNotFoundException e) {
             fail("Config file not found");
         }

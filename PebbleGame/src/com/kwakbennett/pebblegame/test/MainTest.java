@@ -21,7 +21,7 @@ public class MainTest {
     public void createBagList() {
         Configurator configurator = new Configurator();
         try{
-            Configurator.importFromConfig("test_config.txt");
+            configurator.importFromConfig("test_config.txt");
         } catch (FileNotFoundException e) {
             fail("Could not import text config");
         }

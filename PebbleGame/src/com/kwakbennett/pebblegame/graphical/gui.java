@@ -3,17 +3,12 @@ package com.kwakbennett.pebblegame.graphical;
 import com.kwakbennett.pebblegame.Configurator;
 import com.kwakbennett.pebblegame.Main;
 import com.kwakbennett.pebblegame.model.Bag;
-
 import javax.swing.*;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class gui {
-    private JTextArea outputText;
     private JSlider playerCount;
     private Bag[][] bags = new Bag[2][3];
 
@@ -140,7 +135,8 @@ public class gui {
 
         if ("runConfig".equals(e.getActionCommand())){
             try {
-                bags = Configurator.importFromConfig(selectFile());
+                Configurator config = new Configurator();
+                bags = config.importFromConfig(selectFile());
             } catch (Exception e1) {
                 infoBox("Invalid config file. Ensure all input files are in the current working directory.","Error");
                 return;
