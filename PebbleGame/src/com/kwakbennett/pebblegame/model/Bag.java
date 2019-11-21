@@ -10,8 +10,8 @@ import java.util.stream.Collectors;
  * contains a list of pebbles
  */
 public class Bag {
-    private ArrayList<Integer> pebbles;
-    private String name; //name the bag X, Y, or Z to match
+    final private ArrayList<Integer> pebbles;
+    final private String name; //name the bag X, Y, or Z to match
 
     // Constructor
     public Bag(ArrayList<Integer> pebbleValues, String bagName) {

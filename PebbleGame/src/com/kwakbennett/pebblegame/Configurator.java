@@ -11,9 +11,9 @@ import java.util.*;
  * Class for game configuration using console
  */
 public class Configurator {
-    public static int noPlayers;
-    public static boolean shouldDiscardHighest;
-    public static Bag[][] bags;
+    private static int noPlayers;
+    private static boolean shouldDiscardHighest;
+    private static Bag[][] bags;
 
     //it says it could be package-private but must be public for testing
     public int getPlayers() {
@@ -39,9 +39,9 @@ public class Configurator {
             return;
         }
 
-        this.noPlayers = askPlayers();
+        noPlayers = askPlayers();
 
-        this.bags = new Bag[2][3];
+        bags = new Bag[2][3];
 
         String[] blacks = {"X", "Y", "Z"};
         String[] whites = {"A", "B", "C"};
@@ -51,7 +51,7 @@ public class Configurator {
             bags[0][i] = askPebbleValues(blacks[i]); //Bags stored at array index 0 are the black bags
             bags[1][i] = new Bag(whites[i]);  //Bags at index 1 are the white counterparts, with matching indices
         }
-        this.shouldDiscardHighest = askDiscardHighest();
+        shouldDiscardHighest = askDiscardHighest();
     }
 
     /**
@@ -61,7 +61,7 @@ public class Configurator {
      */
     private int askPlayers() {
         Scanner inScanner = new Scanner(System.in);
-        this.noPlayers = 1;
+        noPlayers = 1;
         String playerInput;
         System.out.println("Please enter the number of players:");
 
@@ -237,7 +237,7 @@ public class Configurator {
 
             shouldDiscardHighest = Boolean.parseBoolean(scanner.nextLine());
         } catch (Exception e) {
-            throw new IllegalArgumentException("Invalid config file");
+            throw new IllegalArgumentException("Invalid config file. Ensure all input files are in the current working directory.");
         }
         return bags;
     }

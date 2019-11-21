@@ -99,12 +99,13 @@ public class gui {
         frame.setVisible(true);
     }
 
-    public void actionPerformed(ActionEvent e){
+    private void actionPerformed(ActionEvent e){
         if ("selectBag1".equals(e.getActionCommand())){
             try {
                 bags[0][0] = Configurator.fileToBag(selectFile(),"X");
                 bags[1][0] = new Bag("A");
             } catch (Exception e1) {
+                infoBox("Invalid input file. Please select again.","Error");
                 return;
             }
         }
@@ -113,6 +114,7 @@ public class gui {
                 bags[0][1] = Configurator.fileToBag(selectFile(),"Y");
                 bags[1][1] = new Bag("B");
             } catch (Exception e1) {
+                infoBox("Invalid input file. Please select again.","Error");
                 return;
             }
         }
@@ -121,6 +123,7 @@ public class gui {
                 bags[0][2] = Configurator.fileToBag(selectFile(),"Z");
                 bags[1][2] = new Bag("C");
             } catch (Exception e1) {
+                infoBox("Invalid input file. Please select again.","Error");
                 return;
             }
         }
@@ -131,13 +134,15 @@ public class gui {
                 }
             }
             catch (Exception e1) {
+                infoBox("You haven't selected a bag input file for each bag.","Error");
             }
         }
 
         if ("runConfig".equals(e.getActionCommand())){
             try {
                 bags = Configurator.importFromConfig(selectFile());
-            } catch (FileNotFoundException e1) {
+            } catch (Exception e1) {
+                infoBox("Invalid config file. Ensure all input files are in the current working directory.","Error");
                 return;
             }
             try {
@@ -146,7 +151,8 @@ public class gui {
                 }
             }
             catch (Exception e1) {
-                e1.printStackTrace();
+                infoBox("Invalid config file. Ensure all input files are in the current working directory.","Error");
+                return;
             }
         }
         if ("helpMenu".equals(e.getActionCommand())){
@@ -159,7 +165,7 @@ public class gui {
         }
     }
 
-    public String selectFile(){
+    private String selectFile(){
         //file chooser dialog
         final JFileChooser fileChooser = new JFileChooser( System.getProperty("user.dir") );
         //open on button click
@@ -170,12 +176,12 @@ public class gui {
         return "";
     }
 
-    public static void infoBox(String infoMessage, String titleBar)
+    private static void infoBox(String infoMessage, String titleBar)
     {
         JOptionPane.showMessageDialog(null, infoMessage, titleBar, JOptionPane.INFORMATION_MESSAGE);
     }
 
-    public void runGame(){
+    private void runGame(){
         //create our list of players
         Main.Player[] players = new Main.Player[playerCount.getValue()];
         for (int i = 0; i < playerCount.getValue(); ++i) {

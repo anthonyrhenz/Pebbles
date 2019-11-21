@@ -24,11 +24,11 @@ public class Main {
 
         //definitions
         private static final Object lock = new Object();
-        private String playerName;
-        private LogStreamInterface output;
-        private ArrayList<Integer> hand = new ArrayList<>();
-        private Bag[][] bags;
-        private boolean shouldDiscardHighest;
+        private final String playerName;
+        private final LogStreamInterface output;
+        private final ArrayList<Integer> hand = new ArrayList<>();
+        private final Bag[][] bags;
+        private final boolean shouldDiscardHighest;
         private int randomBag;
 
         //constructors
@@ -101,10 +101,7 @@ public class Main {
         public boolean checkWin() {
             int sum = 0;
             for (int weight : this.hand) sum += weight;
-            if (sum == 100) {
-                return true;
-            }
-            return false;
+            return sum == 100;
         }
 
         //main loop over run
