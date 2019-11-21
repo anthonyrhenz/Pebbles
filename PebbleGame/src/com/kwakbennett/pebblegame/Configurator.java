@@ -1,5 +1,6 @@
 package com.kwakbennett.pebblegame;
 
+import com.kwakbennett.pebblegame.graphical.gui;
 import com.kwakbennett.pebblegame.model.Bag;
 
 import java.io.File;
@@ -10,9 +11,9 @@ import java.util.*;
  * Class for game configuration using console
  */
 public class Configurator {
-    private int noPlayers;
-    private boolean shouldDiscardHighest;
-    private Bag[][] bags;
+    public static int noPlayers;
+    public static boolean shouldDiscardHighest;
+    public static Bag[][] bags;
 
     //it says it could be package-private but must be public for testing
     public int getPlayers() {
@@ -31,6 +32,7 @@ public class Configurator {
      * Ask user for number of players and pebble values for each bag
      */
     void start() {
+
         //asks whether to import config from file
         if (askShouldImport()) {
             askImportFromConfig();
@@ -65,7 +67,7 @@ public class Configurator {
 
         while (true) {
             try {
-                playerInput = inScanner.nextLine();
+                playerInput = inScanner.nextLine().toUpperCase();
                 if (playerInput.equals("E")) {
                     System.exit(0);
                 }
@@ -95,7 +97,7 @@ public class Configurator {
 
         while (true) {
             try {
-                playerInput = inScanner.nextLine();
+                playerInput = inScanner.nextLine().toUpperCase();
                 if (playerInput.equals("E")) {
                     System.exit(0);
                 }
@@ -119,7 +121,7 @@ public class Configurator {
         System.out.println("Would you like players to always discard the highest value pebble instead of discarding randomly? [Y/N]");
 
         while (true) {
-            String playerInput = inScanner.nextLine();
+            String playerInput = inScanner.nextLine().toUpperCase();
             switch (playerInput) {
                 case "E":
                     System.exit(0);
@@ -142,7 +144,7 @@ public class Configurator {
      * @param bagName      name of bag to create
      * @return bag containing pebble values from file
      */
-    private Bag fileToBag(String fileLocation, String bagName) throws Exception {
+    public static Bag fileToBag(String fileLocation, String bagName) throws Exception {
         Scanner scanner;
         try {
             scanner = new Scanner(new File(fileLocation));
@@ -157,15 +159,19 @@ public class Configurator {
         try {
             for (String i : weightsStr) {
                 bagWeightsInts.add(Integer.parseInt(i));
+                //check for negative numbers
+                if (Integer.parseInt(i) < 0 ) {
+                    throw new Exception("Invalid input file. Please choose another file.");
+                }
             }
         } catch (Exception e) {
             throw new Exception("Invalid input file. Please choose another file.");
         }
 
         //each black bag must have at least (11*number of players) pebbles
-        if (bagWeightsInts.size() < this.noPlayers * 11) {
+        if (bagWeightsInts.size() < noPlayers * 11) {
             System.out.println(bagWeightsInts.size());
-            System.out.println(this.noPlayers);
+            System.out.println(noPlayers);
             throw new Exception("Input file is too small for number of players.");
         }
         return new Bag(bagWeightsInts, bagName);
@@ -181,7 +187,7 @@ public class Configurator {
         System.out.println("Would you like to play again? [Y/N]");
 
         while (true) {
-            String playerInput = inScanner.nextLine();
+            String playerInput = inScanner.nextLine().toUpperCase();
             switch (playerInput) {
                 case "E":
                     System.exit(0);
@@ -202,7 +208,7 @@ public class Configurator {
      * @param fileLocation location of config file
      * @throws FileNotFoundException if file not found
      */
-    public void importFromConfig(String fileLocation) throws FileNotFoundException {
+    public static Bag[][] importFromConfig(String fileLocation) throws FileNotFoundException {
         Scanner scanner;
         try {
             scanner = new Scanner(new File(fileLocation));
@@ -211,14 +217,14 @@ public class Configurator {
         }
 
         try {
-            this.noPlayers = Integer.parseInt(scanner.nextLine());
+            noPlayers = Integer.parseInt(scanner.nextLine());
             ArrayList<String> fileList = new ArrayList<>();
 
             for (int i = 0; i < 3; i++) {
                 fileList.add(scanner.nextLine());
             }
 
-            this.bags = new Bag[2][3];
+            bags = new Bag[2][3];
 
             String[] blacks = {"X", "Y", "Z"};
             String[] whites = {"A", "B", "C"};
@@ -229,10 +235,11 @@ public class Configurator {
                 bags[1][i] = new Bag(whites[i]);  //Bags at index 1 are the white counterparts, with matching indices
             }
 
-            this.shouldDiscardHighest = Boolean.parseBoolean(scanner.nextLine());
+            shouldDiscardHighest = Boolean.parseBoolean(scanner.nextLine());
         } catch (Exception e) {
             throw new IllegalArgumentException("Invalid config file");
         }
+        return bags;
     }
 
     /**
@@ -242,10 +249,10 @@ public class Configurator {
      */
     private boolean askShouldImport() {
         Scanner inScanner = new Scanner(System.in);
-        System.out.println("Would you like to import configuration form file? [Y/N]");
+        System.out.println("Would you like to import configuration from file? [Y/N]");
 
         while (true) {
-            String playerInput = inScanner.nextLine();
+            String playerInput = inScanner.nextLine().toUpperCase();
             switch (playerInput) {
                 case "E":
                     System.exit(0);
