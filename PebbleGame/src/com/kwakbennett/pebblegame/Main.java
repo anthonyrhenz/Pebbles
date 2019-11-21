@@ -2,10 +2,8 @@ package com.kwakbennett.pebblegame;
 
 import com.kwakbennett.pebblegame.graphical.gui;
 import com.kwakbennett.pebblegame.model.Bag;
-
 import com.kwakbennett.pebblegame.logger.FileLogStream;
 import com.kwakbennett.pebblegame.logger.LogStreamInterface;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -107,9 +105,6 @@ public class Main {
         //main loop over run
         @Override
         public void run() {
-//            removePebble(bags[0][0]);
-            //System.out.println(hand.stream().map(Object::toString).collect(Collectors.joining(", "))); //print player hand
-
             while (!gameWon) {
                 //check if win to terminate
                 if (checkWin()) {

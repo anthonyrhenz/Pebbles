@@ -52,7 +52,7 @@ public class Bag {
         pebbles.add(pebble);
     }
 
-    //debug-ish to output the bag's arraylist contents as a string
+    //output the bag's arraylist contents as a string
     public String asString() {
         return pebbles.stream().map(Object::toString).collect(Collectors.joining(", "));
     }

@@ -13,7 +13,6 @@ public class Configurator {
     private static boolean shouldDiscardHighest;
     private static Bag[][] bags;
 
-    //it says it could be package-private but must be public for testing
     public int getPlayers() {
         return noPlayers;
     }
