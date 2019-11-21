@@ -15,6 +15,7 @@ import static org.junit.Assert.*;
 public class MainTest {
     private Bag[][] bags;
     private Main.Player player;
+    private boolean discardStrategy;
 
     @Before
     public void createBagList() {
@@ -25,23 +26,34 @@ public class MainTest {
             fail("Could not import text config");
         }
         this.bags = configurator.getBags();
+        this.discardStrategy = configurator.getShouldDiscardHighest();
+        //imports configuration from file before every test
     }
 
 
     @Before
     public void createPlayer() {
+        this.player = new Main.Player("testPlayer","testPlayer.txt",this.bags,discardStrategy);
         //re-creates player before every test
-        this.player = new Main.Player("testPlayer","testPlayer.txt",this.bags,true);
     }
 
     @Test
     public void playerCheckTrueWin() {
         this.player.takePebble(new Bag(new ArrayList<>(Collections.singletonList(100)),"bag"));
         assertTrue(this.player.checkWin());
+        //checks if checkWin() returns true on a winning hand
     }
 
     @Test
     public void playerCheckFalseWin() {
         assertFalse(this.player.checkWin());
+        //checks if checkWin() returns false on a losing hand
+    }
+
+    @Test
+    public void playerGameCompletes() {
+        this.player.run();
+        assertTrue(this.player.checkWin());
+        //checks if running the game with one player ends with a winning hand
     }
 }

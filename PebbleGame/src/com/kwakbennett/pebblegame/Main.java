@@ -102,11 +102,6 @@ public class Main {
             int sum = 0;
             for (int weight : this.hand) sum += weight;
             if (sum == 100) {
-                try {
-                    this.output.write(this.playerName+" has won the game with hand " + this.hand.toString());
-                } catch (IOException e) {
-                    System.out.println("Failed to log player win: " + e.getMessage());
-                }
                 return true;
             }
             return false;
@@ -123,6 +118,11 @@ public class Main {
                 if (checkWin()) {
                     System.out.println(this.playerName + " has won with hand " + this.hand);
                     UImessage = this.playerName+" has won the game with hand " + this.hand.toString();
+                    try {
+                        this.output.write(this.playerName+" has won the game with hand " + this.hand.toString());
+                    } catch (IOException e) {
+                        System.out.println("Failed to log player win: " + e.getMessage());
+                    }
                     gameWon = true;
                     break;
                 }

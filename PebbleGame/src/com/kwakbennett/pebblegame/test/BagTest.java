@@ -15,12 +15,14 @@ public class BagTest {
     public void isEmptyReturnsTrue() {
         Bag emptyBag = new Bag("Empty Bag");
         assertTrue(emptyBag.isEmpty());
+        //checks if running isEmpty() on an empty list returns true
     }
 
     @Test
     public void isEmptyReturnsFalse() {
         Bag nonEmptyBag = new Bag(new ArrayList<>(Collections.singletonList(1)), "Non-Empty Bag");
         assertFalse(nonEmptyBag.isEmpty());
+        //checks if running isEmpty() on a non-empty list returns false
     }
 
     @Test
@@ -29,6 +31,7 @@ public class BagTest {
         assertFalse(testBag.isEmpty());
         assertEquals(1, testBag.takeRandomPebble());
         assertTrue(testBag.isEmpty());
+        //checks if taking a pebble from a bag that only has one pebble makes the bag empty
     }
 
     @Test
@@ -40,6 +43,7 @@ public class BagTest {
         }
         //after removing all 3, bag should be empty
         assertTrue(testBag.isEmpty());
+        //checks if removing all multiple pebbles from a bag makes it empty
     }
 
     @Test
@@ -50,6 +54,7 @@ public class BagTest {
         testBag.addPebble(1);
         assertFalse(testBag.isEmpty());
         assertEquals(1, testBag.takeRandomPebble());
+        //checks if adding a pebble to an empty bag makes it non-empty and adds the actual pebble
     }
 
     @Test
@@ -65,5 +70,6 @@ public class BagTest {
         //pebbles were moved from one bag to the other, so assertions now opposite
         assertFalse(bagA.isEmpty());
         assertTrue(bagB.isEmpty());
+        //checks if moving pebbles from one bag to another works
     }
 }

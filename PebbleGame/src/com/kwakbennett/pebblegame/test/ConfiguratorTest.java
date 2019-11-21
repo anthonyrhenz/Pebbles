@@ -25,6 +25,7 @@ public class ConfiguratorTest {
             fail("Config file not found");
         }
         assertEquals(1, configurator.getPlayers());
+        //checks if importing the player count works
     }
 
     @Test
@@ -35,6 +36,7 @@ public class ConfiguratorTest {
             fail("Config file not found");
         }
         assertTrue(configurator.getShouldDiscardHighest());
+        //checks if importing the discard strategy works
     }
 
     @Test
@@ -50,5 +52,6 @@ public class ConfiguratorTest {
                 assertNotNull(bag);
             }
         }
+        //checks if importing bags actually crates the bags
     }
 }
