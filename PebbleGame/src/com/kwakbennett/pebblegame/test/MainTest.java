@@ -39,21 +39,13 @@ public class MainTest {
 
     @Test
     public void playerCheckTrueWin() {
-        this.player.takePebble(new Bag(new ArrayList<>(Collections.singletonList(100)),"bag"));
+        this.player.takePebble(new Bag(new ArrayList<>(Collections.singletonList(90)),"bag"));
         assertTrue(this.player.checkWin());
-        //checks if checkWin() returns true on a winning hand
     }
 
     @Test
     public void playerCheckFalseWin() {
         assertFalse(this.player.checkWin());
         //checks if checkWin() returns false on a losing hand
-    }
-
-    @Test
-    public void playerGameCompletes() {
-        this.player.run();
-        assertTrue(this.player.checkWin());
-        //checks if running the game with one player ends with a winning hand
     }
 }
