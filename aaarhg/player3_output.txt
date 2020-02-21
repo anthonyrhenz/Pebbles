@@ -1,0 +1,384 @@
+player3 has discarded a 96 to bag C
+player3 hand is [80, 88, 40, 12, 18, 34, 65, 30, 25]
+player3 has drawn a 62 from bag Z
+player3 hand is [80, 88, 40, 12, 18, 34, 65, 30, 25, 62]
+player3 has discarded a 88 to bag C
+player3 hand is [80, 40, 12, 18, 34, 65, 30, 25, 62]
+player3 has drawn a 80 from bag Y
+player3 hand is [80, 40, 12, 18, 34, 65, 30, 25, 62, 80]
+player3 has discarded a 80 to bag B
+player3 hand is [40, 12, 18, 34, 65, 30, 25, 62, 80]
+player3 has drawn a 28 from bag Y
+player3 hand is [40, 12, 18, 34, 65, 30, 25, 62, 80, 28]
+player3 has discarded a 80 to bag B
+player3 hand is [40, 12, 18, 34, 65, 30, 25, 62, 28]
+player3 has drawn a 57 from bag X
+player3 hand is [40, 12, 18, 34, 65, 30, 25, 62, 28, 57]
+player3 has discarded a 65 to bag A
+player3 hand is [40, 12, 18, 34, 30, 25, 62, 28, 57]
+player3 has drawn a 20 from bag X
+player3 hand is [40, 12, 18, 34, 30, 25, 62, 28, 57, 20]
+player3 has discarded a 62 to bag A
+player3 hand is [40, 12, 18, 34, 30, 25, 28, 57, 20]
+player3 has drawn a 94 from bag Z
+player3 hand is [40, 12, 18, 34, 30, 25, 28, 57, 20, 94]
+player3 has discarded a 94 to bag C
+player3 hand is [40, 12, 18, 34, 30, 25, 28, 57, 20]
+player3 has drawn a 9 from bag Z
+player3 hand is [40, 12, 18, 34, 30, 25, 28, 57, 20, 9]
+player3 has discarded a 57 to bag C
+player3 hand is [40, 12, 18, 34, 30, 25, 28, 20, 9]
+player3 has drawn a 10 from bag Z
+player3 hand is [40, 12, 18, 34, 30, 25, 28, 20, 9, 10]
+player3 has discarded a 40 to bag C
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10]
+player3 has drawn a 100 from bag Y
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10, 100]
+player3 has discarded a 100 to bag B
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10]
+player3 has drawn a 99 from bag Z
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10, 99]
+player3 has discarded a 99 to bag C
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10]
+player3 has drawn a 86 from bag X
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10, 86]
+player3 has discarded a 86 to bag A
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10]
+player3 has drawn a 87 from bag X
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10, 87]
+player3 has discarded a 87 to bag A
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10]
+player3 has drawn a 65 from bag Y
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10, 65]
+player3 has discarded a 65 to bag B
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10]
+player3 has drawn a 66 from bag X
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10, 66]
+player3 has discarded a 66 to bag A
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10]
+player3 has drawn a 27 from bag Y
+player3 hand is [12, 18, 34, 30, 25, 28, 20, 9, 10, 27]
+player3 has discarded a 34 to bag B
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 42 from bag Y
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 42]
+player3 has discarded a 42 to bag B
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 59 from bag X
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 59]
+player3 has discarded a 59 to bag A
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 73 from bag Z
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 73]
+player3 has discarded a 73 to bag C
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 37 from bag X
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 37]
+player3 has discarded a 37 to bag A
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 93 from bag Y
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 93]
+player3 has discarded a 93 to bag B
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 56 from bag Z
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 56]
+player3 has discarded a 56 to bag C
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 44 from bag Z
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 44]
+player3 has discarded a 44 to bag C
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 37 from bag Y
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 37]
+player3 has discarded a 37 to bag B
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 95 from bag X
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 95]
+player3 has discarded a 95 to bag A
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 73 from bag Y
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 73]
+player3 has discarded a 73 to bag B
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 62 from bag Y
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 62]
+player3 has discarded a 62 to bag B
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27]
+player3 has drawn a 14 from bag Z
+player3 hand is [12, 18, 30, 25, 28, 20, 9, 10, 27, 14]
+player3 has discarded a 30 to bag C
+player3 hand is [12, 18, 25, 28, 20, 9, 10, 27, 14]
+player3 has drawn a 38 from bag Y
+player3 hand is [12, 18, 25, 28, 20, 9, 10, 27, 14, 38]
+player3 has discarded a 38 to bag B
+player3 hand is [12, 18, 25, 28, 20, 9, 10, 27, 14]
+player3 has drawn a 7 from bag X
+player3 hand is [12, 18, 25, 28, 20, 9, 10, 27, 14, 7]
+player3 has discarded a 28 to bag A
+player3 hand is [12, 18, 25, 20, 9, 10, 27, 14, 7]
+player3 has drawn a 74 from bag Z
+player3 hand is [12, 18, 25, 20, 9, 10, 27, 14, 7, 74]
+player3 has discarded a 74 to bag C
+player3 hand is [12, 18, 25, 20, 9, 10, 27, 14, 7]
+player3 has drawn a 36 from bag X
+player3 hand is [12, 18, 25, 20, 9, 10, 27, 14, 7, 36]
+player3 has discarded a 36 to bag A
+player3 hand is [12, 18, 25, 20, 9, 10, 27, 14, 7]
+player3 has drawn a 78 from bag Y
+player3 hand is [12, 18, 25, 20, 9, 10, 27, 14, 7, 78]
+player3 has discarded a 78 to bag B
+player3 hand is [12, 18, 25, 20, 9, 10, 27, 14, 7]
+player3 has drawn a 22 from bag X
+player3 hand is [12, 18, 25, 20, 9, 10, 27, 14, 7, 22]
+player3 has discarded a 27 to bag A
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 33 from bag Z
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 33]
+player3 has discarded a 33 to bag C
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 100 from bag X
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 100]
+player3 has discarded a 100 to bag A
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 43 from bag Y
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 43]
+player3 has discarded a 43 to bag B
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 34 from bag X
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 34]
+player3 has discarded a 34 to bag A
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 54 from bag X
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 54]
+player3 has discarded a 54 to bag A
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 75 from bag X
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 75]
+player3 has discarded a 75 to bag A
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 79 from bag Z
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 79]
+player3 has discarded a 79 to bag C
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 84 from bag Z
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 84]
+player3 has discarded a 84 to bag C
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 29 from bag Z
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 29]
+player3 has discarded a 29 to bag C
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 32 from bag Z
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 32]
+player3 has discarded a 32 to bag C
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 82 from bag X
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 82]
+player3 has discarded a 82 to bag A
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22]
+player3 has drawn a 2 from bag X
+player3 hand is [12, 18, 25, 20, 9, 10, 14, 7, 22, 2]
+player3 has discarded a 25 to bag A
+player3 hand is [12, 18, 20, 9, 10, 14, 7, 22, 2]
+player3 has drawn a 64 from bag X
+player3 hand is [12, 18, 20, 9, 10, 14, 7, 22, 2, 64]
+player3 has discarded a 64 to bag A
+player3 hand is [12, 18, 20, 9, 10, 14, 7, 22, 2]
+player3 has drawn a 39 from bag Z
+player3 hand is [12, 18, 20, 9, 10, 14, 7, 22, 2, 39]
+player3 has discarded a 39 to bag C
+player3 hand is [12, 18, 20, 9, 10, 14, 7, 22, 2]
+player3 has drawn a 8 from bag Z
+player3 hand is [12, 18, 20, 9, 10, 14, 7, 22, 2, 8]
+player3 has discarded a 22 to bag C
+player3 hand is [12, 18, 20, 9, 10, 14, 7, 2, 8]
+player3 has drawn a 3 from bag Z
+player3 hand is [12, 18, 20, 9, 10, 14, 7, 2, 8, 3]
+player3 has discarded a 20 to bag C
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3]
+player3 has drawn a 38 from bag X
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3, 38]
+player3 has discarded a 38 to bag A
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3]
+player3 has drawn a 52 from bag X
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3, 52]
+player3 has discarded a 52 to bag A
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3]
+player3 has drawn a 45 from bag Z
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3, 45]
+player3 has discarded a 45 to bag C
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3]
+player3 has drawn a 30 from bag X
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3, 30]
+player3 has discarded a 30 to bag A
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3]
+player3 has drawn a 51 from bag X
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3, 51]
+player3 has discarded a 51 to bag A
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3]
+player3 has drawn a 69 from bag X
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3, 69]
+player3 has discarded a 69 to bag A
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3]
+player3 has drawn a 82 from bag Y
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3, 82]
+player3 has discarded a 82 to bag B
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3]
+player3 has drawn a 11 from bag Y
+player3 hand is [12, 18, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has discarded a 18 to bag B
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 71 from bag Y
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 71]
+player3 has discarded a 71 to bag B
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 89 from bag X
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 89]
+player3 has discarded a 89 to bag A
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 87 from bag Z
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 87]
+player3 has discarded a 87 to bag C
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 64 from bag Z
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 64]
+player3 has discarded a 64 to bag C
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 49 from bag X
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 49]
+player3 has discarded a 49 to bag A
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 33 from bag Y
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 33]
+player3 has discarded a 33 to bag B
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 66 from bag Y
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 66]
+player3 has discarded a 66 to bag B
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 84 from bag Y
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 84]
+player3 has discarded a 84 to bag B
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 22 from bag Y
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 22]
+player3 has discarded a 22 to bag B
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 68 from bag Z
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 68]
+player3 has discarded a 68 to bag C
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 45 from bag Y
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 45]
+player3 has discarded a 45 to bag B
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 63 from bag Z
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 63]
+player3 has discarded a 63 to bag C
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 83 from bag Y
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 83]
+player3 has discarded a 83 to bag B
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 83 from bag Z
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 83]
+player3 has discarded a 83 to bag C
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 58 from bag Z
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 58]
+player3 has discarded a 58 to bag C
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11]
+player3 has drawn a 4 from bag X
+player3 hand is [12, 9, 10, 14, 7, 2, 8, 3, 11, 4]
+player3 has discarded a 14 to bag A
+player3 hand is [12, 9, 10, 7, 2, 8, 3, 11, 4]
+player3 has drawn a 54 from bag Z
+player3 hand is [12, 9, 10, 7, 2, 8, 3, 11, 4, 54]
+player3 has discarded a 54 to bag C
+player3 hand is [12, 9, 10, 7, 2, 8, 3, 11, 4]
+player3 has drawn a 33 from bag X
+player3 hand is [12, 9, 10, 7, 2, 8, 3, 11, 4, 33]
+player3 has discarded a 33 to bag A
+player3 hand is [12, 9, 10, 7, 2, 8, 3, 11, 4]
+player3 has drawn a 10 from bag X
+player3 hand is [12, 9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has discarded a 12 to bag A
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 19 from bag Y
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 19]
+player3 has discarded a 19 to bag B
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 41 from bag Z
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 41]
+player3 has discarded a 41 to bag C
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 84 from bag X
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 84]
+player3 has discarded a 84 to bag A
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 55 from bag Y
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 55]
+player3 has discarded a 55 to bag B
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 60 from bag Z
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 60]
+player3 has discarded a 60 to bag C
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 39 from bag Y
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 39]
+player3 has discarded a 39 to bag B
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 85 from bag Z
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 85]
+player3 has discarded a 85 to bag C
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 88 from bag Y
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 88]
+player3 has discarded a 88 to bag B
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 58 from bag X
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 58]
+player3 has discarded a 58 to bag A
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 12 from bag X
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 12]
+player3 has discarded a 12 to bag A
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 75 from bag Z
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 75]
+player3 has discarded a 75 to bag C
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 31 from bag Z
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 31]
+player3 has discarded a 31 to bag C
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 33 from bag Z
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 33]
+player3 has discarded a 33 to bag C
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 17 from bag Z
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 17]
+player3 has discarded a 17 to bag C
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 57 from bag Z
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 57]
+player3 has discarded a 57 to bag C
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 92 from bag Y
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 92]
+player3 has discarded a 92 to bag B
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 64 from bag X
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 64]
+player3 has discarded a 64 to bag A
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 38 from bag Y
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 38]
+player3 has discarded a 38 to bag B
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 94 from bag Y
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 94]
+player3 has discarded a 94 to bag B
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10]
+player3 has drawn a 39 from bag Z
+player3 hand is [9, 10, 7, 2, 8, 3, 11, 4, 10, 39]

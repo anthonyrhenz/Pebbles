@@ -1,0 +1,164 @@
+player5 has discarded a 85 to bag A
+player5 hand is [41, 21, 83, 9, 19, 61, 73, 29, 65]
+player5 has drawn a 78 from bag Z
+player5 hand is [41, 21, 83, 9, 19, 61, 73, 29, 65, 78]
+player5 has discarded a 83 to bag C
+player5 hand is [41, 21, 9, 19, 61, 73, 29, 65, 78]
+player5 has drawn a 81 from bag Y
+player5 hand is [41, 21, 9, 19, 61, 73, 29, 65, 78, 81]
+player5 has discarded a 81 to bag B
+player5 hand is [41, 21, 9, 19, 61, 73, 29, 65, 78]
+player5 has drawn a 19 from bag Z
+player5 hand is [41, 21, 9, 19, 61, 73, 29, 65, 78, 19]
+player5 has discarded a 78 to bag C
+player5 hand is [41, 21, 9, 19, 61, 73, 29, 65, 19]
+player5 has drawn a 7 from bag Y
+player5 hand is [41, 21, 9, 19, 61, 73, 29, 65, 19, 7]
+player5 has discarded a 73 to bag B
+player5 hand is [41, 21, 9, 19, 61, 29, 65, 19, 7]
+player5 has drawn a 90 from bag Y
+player5 hand is [41, 21, 9, 19, 61, 29, 65, 19, 7, 90]
+player5 has discarded a 90 to bag B
+player5 hand is [41, 21, 9, 19, 61, 29, 65, 19, 7]
+player5 has drawn a 60 from bag Y
+player5 hand is [41, 21, 9, 19, 61, 29, 65, 19, 7, 60]
+player5 has discarded a 65 to bag B
+player5 hand is [41, 21, 9, 19, 61, 29, 19, 7, 60]
+player5 has drawn a 28 from bag Z
+player5 hand is [41, 21, 9, 19, 61, 29, 19, 7, 60, 28]
+player5 has discarded a 61 to bag C
+player5 hand is [41, 21, 9, 19, 29, 19, 7, 60, 28]
+player5 has drawn a 40 from bag Y
+player5 hand is [41, 21, 9, 19, 29, 19, 7, 60, 28, 40]
+player5 has discarded a 60 to bag B
+player5 hand is [41, 21, 9, 19, 29, 19, 7, 28, 40]
+player5 has drawn a 92 from bag X
+player5 hand is [41, 21, 9, 19, 29, 19, 7, 28, 40, 92]
+player5 has discarded a 92 to bag A
+player5 hand is [41, 21, 9, 19, 29, 19, 7, 28, 40]
+player5 has drawn a 99 from bag X
+player5 hand is [41, 21, 9, 19, 29, 19, 7, 28, 40, 99]
+player5 has discarded a 99 to bag A
+player5 hand is [41, 21, 9, 19, 29, 19, 7, 28, 40]
+player5 has drawn a 35 from bag X
+player5 hand is [41, 21, 9, 19, 29, 19, 7, 28, 40, 35]
+player5 has discarded a 41 to bag A
+player5 hand is [21, 9, 19, 29, 19, 7, 28, 40, 35]
+player5 has drawn a 13 from bag X
+player5 hand is [21, 9, 19, 29, 19, 7, 28, 40, 35, 13]
+player5 has discarded a 40 to bag A
+player5 hand is [21, 9, 19, 29, 19, 7, 28, 35, 13]
+player5 has drawn a 15 from bag X
+player5 hand is [21, 9, 19, 29, 19, 7, 28, 35, 13, 15]
+player5 has discarded a 35 to bag A
+player5 hand is [21, 9, 19, 29, 19, 7, 28, 13, 15]
+player5 has drawn a 9 from bag Y
+player5 hand is [21, 9, 19, 29, 19, 7, 28, 13, 15, 9]
+player5 has discarded a 29 to bag B
+player5 hand is [21, 9, 19, 19, 7, 28, 13, 15, 9]
+player5 has drawn a 97 from bag Z
+player5 hand is [21, 9, 19, 19, 7, 28, 13, 15, 9, 97]
+player5 has discarded a 97 to bag C
+player5 hand is [21, 9, 19, 19, 7, 28, 13, 15, 9]
+player5 has drawn a 41 from bag Y
+player5 hand is [21, 9, 19, 19, 7, 28, 13, 15, 9, 41]
+player5 has discarded a 41 to bag B
+player5 hand is [21, 9, 19, 19, 7, 28, 13, 15, 9]
+player5 has drawn a 60 from bag X
+player5 hand is [21, 9, 19, 19, 7, 28, 13, 15, 9, 60]
+player5 has discarded a 60 to bag A
+player5 hand is [21, 9, 19, 19, 7, 28, 13, 15, 9]
+player5 has drawn a 5 from bag Y
+player5 hand is [21, 9, 19, 19, 7, 28, 13, 15, 9, 5]
+player5 has discarded a 28 to bag B
+player5 hand is [21, 9, 19, 19, 7, 13, 15, 9, 5]
+player5 has drawn a 88 from bag X
+player5 hand is [21, 9, 19, 19, 7, 13, 15, 9, 5, 88]
+player5 has discarded a 88 to bag A
+player5 hand is [21, 9, 19, 19, 7, 13, 15, 9, 5]
+player5 has drawn a 7 from bag Z
+player5 hand is [21, 9, 19, 19, 7, 13, 15, 9, 5, 7]
+player5 has discarded a 21 to bag C
+player5 hand is [9, 19, 19, 7, 13, 15, 9, 5, 7]
+player5 has drawn a 16 from bag Y
+player5 hand is [9, 19, 19, 7, 13, 15, 9, 5, 7, 16]
+player5 has discarded a 19 to bag B
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16]
+player5 has drawn a 40 from bag X
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16, 40]
+player5 has discarded a 40 to bag A
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16]
+player5 has drawn a 35 from bag Z
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16, 35]
+player5 has discarded a 35 to bag C
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16]
+player5 has drawn a 87 from bag Y
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16, 87]
+player5 has discarded a 87 to bag B
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16]
+player5 has drawn a 93 from bag Z
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16, 93]
+player5 has discarded a 93 to bag C
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16]
+player5 has drawn a 2 from bag Z
+player5 hand is [9, 19, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has discarded a 19 to bag C
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 22 from bag Z
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 22]
+player5 has discarded a 22 to bag C
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 51 from bag Y
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 51]
+player5 has discarded a 51 to bag B
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 80 from bag X
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 80]
+player5 has discarded a 80 to bag A
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 71 from bag Z
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 71]
+player5 has discarded a 71 to bag C
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 27 from bag Z
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 27]
+player5 has discarded a 27 to bag C
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 59 from bag Y
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 59]
+player5 has discarded a 59 to bag B
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 23 from bag X
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 23]
+player5 has discarded a 23 to bag A
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 60 from bag X
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 60]
+player5 has discarded a 60 to bag A
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 80 from bag X
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 80]
+player5 has discarded a 80 to bag A
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 36 from bag Y
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 36]
+player5 has discarded a 36 to bag B
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 77 from bag Y
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 77]
+player5 has discarded a 77 to bag B
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 52 from bag Y
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 52]
+player5 has discarded a 52 to bag B
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 56 from bag Y
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 56]
+player5 has discarded a 56 to bag B
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 99 from bag X
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 99]
+player5 has discarded a 99 to bag A
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2]
+player5 has drawn a 81 from bag Y
+player5 hand is [9, 7, 13, 15, 9, 5, 7, 16, 2, 81]

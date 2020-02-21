@@ -71,6 +71,11 @@ public class gui {
 
         //adding all our components
         //labels
+        JProgressBar pro = new JProgressBar(0,100);
+        pro.setBounds(200,260,200,20);
+        frame.add(pro);
+
+
         frame.add(desc);
         frame.add(playerCounter);
         frame.add(playerCount);
@@ -92,6 +97,15 @@ public class gui {
         frame.setLayout(null);
         frame.setResizable(false);
         frame.setVisible(true);
+
+        for (int i = 0; i<100;++i) {
+            pro.setValue(i);
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     private void actionPerformed(ActionEvent e){

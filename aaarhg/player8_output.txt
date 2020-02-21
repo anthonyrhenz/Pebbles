@@ -1,0 +1,304 @@
+player8 has discarded a 95 to bag C
+player8 hand is [18, 34, 22, 26, 56, 85, 39, 6, 10]
+player8 has drawn a 24 from bag Y
+player8 hand is [18, 34, 22, 26, 56, 85, 39, 6, 10, 24]
+player8 has discarded a 85 to bag B
+player8 hand is [18, 34, 22, 26, 56, 39, 6, 10, 24]
+player8 has drawn a 19 from bag X
+player8 hand is [18, 34, 22, 26, 56, 39, 6, 10, 24, 19]
+player8 has discarded a 56 to bag A
+player8 hand is [18, 34, 22, 26, 39, 6, 10, 24, 19]
+player8 has drawn a 7 from bag Z
+player8 hand is [18, 34, 22, 26, 39, 6, 10, 24, 19, 7]
+player8 has discarded a 39 to bag C
+player8 hand is [18, 34, 22, 26, 6, 10, 24, 19, 7]
+player8 has drawn a 38 from bag X
+player8 hand is [18, 34, 22, 26, 6, 10, 24, 19, 7, 38]
+player8 has discarded a 38 to bag A
+player8 hand is [18, 34, 22, 26, 6, 10, 24, 19, 7]
+player8 has drawn a 86 from bag X
+player8 hand is [18, 34, 22, 26, 6, 10, 24, 19, 7, 86]
+player8 has discarded a 86 to bag A
+player8 hand is [18, 34, 22, 26, 6, 10, 24, 19, 7]
+player8 has drawn a 24 from bag Z
+player8 hand is [18, 34, 22, 26, 6, 10, 24, 19, 7, 24]
+player8 has discarded a 34 to bag C
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24]
+player8 has drawn a 86 from bag Z
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24, 86]
+player8 has discarded a 86 to bag C
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24]
+player8 has drawn a 83 from bag Y
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24, 83]
+player8 has discarded a 83 to bag B
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24]
+player8 has drawn a 49 from bag Y
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24, 49]
+player8 has discarded a 49 to bag B
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24]
+player8 has drawn a 37 from bag X
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24, 37]
+player8 has discarded a 37 to bag A
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24]
+player8 has drawn a 50 from bag Z
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24, 50]
+player8 has discarded a 50 to bag C
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24]
+player8 has drawn a 65 from bag Y
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24, 65]
+player8 has discarded a 65 to bag B
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24]
+player8 has drawn a 25 from bag Z
+player8 hand is [18, 22, 26, 6, 10, 24, 19, 7, 24, 25]
+player8 has discarded a 26 to bag C
+player8 hand is [18, 22, 6, 10, 24, 19, 7, 24, 25]
+player8 has drawn a 9 from bag X
+player8 hand is [18, 22, 6, 10, 24, 19, 7, 24, 25, 9]
+player8 has discarded a 25 to bag A
+player8 hand is [18, 22, 6, 10, 24, 19, 7, 24, 9]
+player8 has drawn a 34 from bag X
+player8 hand is [18, 22, 6, 10, 24, 19, 7, 24, 9, 34]
+player8 has discarded a 34 to bag A
+player8 hand is [18, 22, 6, 10, 24, 19, 7, 24, 9]
+player8 has drawn a 19 from bag Z
+player8 hand is [18, 22, 6, 10, 24, 19, 7, 24, 9, 19]
+player8 has discarded a 24 to bag C
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19]
+player8 has drawn a 49 from bag Z
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19, 49]
+player8 has discarded a 49 to bag C
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19]
+player8 has drawn a 79 from bag X
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19, 79]
+player8 has discarded a 79 to bag A
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19]
+player8 has drawn a 75 from bag X
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19, 75]
+player8 has discarded a 75 to bag A
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19]
+player8 has drawn a 25 from bag Y
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19, 25]
+player8 has discarded a 25 to bag B
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19]
+player8 has drawn a 57 from bag Z
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19, 57]
+player8 has discarded a 57 to bag C
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19]
+player8 has drawn a 14 from bag Z
+player8 hand is [18, 22, 6, 10, 19, 7, 24, 9, 19, 14]
+player8 has discarded a 24 to bag C
+player8 hand is [18, 22, 6, 10, 19, 7, 9, 19, 14]
+player8 has drawn a 13 from bag X
+player8 hand is [18, 22, 6, 10, 19, 7, 9, 19, 14, 13]
+player8 has discarded a 22 to bag A
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13]
+player8 has drawn a 63 from bag Z
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13, 63]
+player8 has discarded a 63 to bag C
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13]
+player8 has drawn a 89 from bag Y
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13, 89]
+player8 has discarded a 89 to bag B
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13]
+player8 has drawn a 60 from bag X
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13, 60]
+player8 has discarded a 60 to bag A
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13]
+player8 has drawn a 40 from bag Z
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13, 40]
+player8 has discarded a 40 to bag C
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13]
+player8 has drawn a 80 from bag X
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13, 80]
+player8 has discarded a 80 to bag A
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13]
+player8 has drawn a 31 from bag Z
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13, 31]
+player8 has discarded a 31 to bag C
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13]
+player8 has drawn a 5 from bag Y
+player8 hand is [18, 6, 10, 19, 7, 9, 19, 14, 13, 5]
+player8 has discarded a 19 to bag B
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5]
+player8 has drawn a 44 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5, 44]
+player8 has discarded a 44 to bag B
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5]
+player8 has drawn a 41 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5, 41]
+player8 has discarded a 41 to bag C
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5]
+player8 has drawn a 45 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5, 45]
+player8 has discarded a 45 to bag B
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5]
+player8 has drawn a 30 from bag X
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5, 30]
+player8 has discarded a 30 to bag A
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5]
+player8 has drawn a 39 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5, 39]
+player8 has discarded a 39 to bag C
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5]
+player8 has drawn a 32 from bag X
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5, 32]
+player8 has discarded a 32 to bag A
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5]
+player8 has drawn a 14 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 19, 14, 13, 5, 14]
+player8 has discarded a 19 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 39 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 39]
+player8 has discarded a 39 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 84 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 84]
+player8 has discarded a 84 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 61 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 61]
+player8 has discarded a 61 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 91 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 91]
+player8 has discarded a 91 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 48 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 48]
+player8 has discarded a 48 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 58 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 58]
+player8 has discarded a 58 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 76 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 76]
+player8 has discarded a 76 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 61 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 61]
+player8 has discarded a 61 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 52 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 52]
+player8 has discarded a 52 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 81 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 81]
+player8 has discarded a 81 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 44 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 44]
+player8 has discarded a 44 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 59 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 59]
+player8 has discarded a 59 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 82 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 82]
+player8 has discarded a 82 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 84 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 84]
+player8 has discarded a 84 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 89 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 89]
+player8 has discarded a 89 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 26 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 26]
+player8 has discarded a 26 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 80 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 80]
+player8 has discarded a 80 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 40 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 40]
+player8 has discarded a 40 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 43 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 43]
+player8 has discarded a 43 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 69 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 69]
+player8 has discarded a 69 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 42 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 42]
+player8 has discarded a 42 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 92 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 92]
+player8 has discarded a 92 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 49 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 49]
+player8 has discarded a 49 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 91 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 91]
+player8 has discarded a 91 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 79 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 79]
+player8 has discarded a 79 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 92 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 92]
+player8 has discarded a 92 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 73 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 73]
+player8 has discarded a 73 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 55 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 55]
+player8 has discarded a 55 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 48 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 48]
+player8 has discarded a 48 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 94 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 94]
+player8 has discarded a 94 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 49 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 49]
+player8 has discarded a 49 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 57 from bag Z
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 57]
+player8 has discarded a 57 to bag C
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 55 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 55]
+player8 has discarded a 55 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 55 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 55]
+player8 has discarded a 55 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 69 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 69]
+player8 has discarded a 69 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 92 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 92]
+player8 has discarded a 92 to bag A
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 30 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 30]
+player8 has discarded a 30 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 45 from bag Y
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 45]
+player8 has discarded a 45 to bag B
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14]
+player8 has drawn a 98 from bag X
+player8 hand is [18, 6, 10, 7, 9, 14, 13, 5, 14, 98]

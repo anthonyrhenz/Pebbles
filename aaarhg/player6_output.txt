@@ -1,0 +1,248 @@
+player6 has discarded a 94 to bag A
+player6 hand is [58, 62, 23, 15, 20, 48, 73, 33, 47]
+player6 has drawn a 53 from bag Z
+player6 hand is [58, 62, 23, 15, 20, 48, 73, 33, 47, 53]
+player6 has discarded a 73 to bag C
+player6 hand is [58, 62, 23, 15, 20, 48, 33, 47, 53]
+player6 has drawn a 43 from bag Z
+player6 hand is [58, 62, 23, 15, 20, 48, 33, 47, 53, 43]
+player6 has discarded a 62 to bag C
+player6 hand is [58, 23, 15, 20, 48, 33, 47, 53, 43]
+player6 has drawn a 57 from bag X
+player6 hand is [58, 23, 15, 20, 48, 33, 47, 53, 43, 57]
+player6 has discarded a 58 to bag A
+player6 hand is [23, 15, 20, 48, 33, 47, 53, 43, 57]
+player6 has drawn a 20 from bag Z
+player6 hand is [23, 15, 20, 48, 33, 47, 53, 43, 57, 20]
+player6 has discarded a 57 to bag C
+player6 hand is [23, 15, 20, 48, 33, 47, 53, 43, 20]
+player6 has drawn a 3 from bag Z
+player6 hand is [23, 15, 20, 48, 33, 47, 53, 43, 20, 3]
+player6 has discarded a 53 to bag C
+player6 hand is [23, 15, 20, 48, 33, 47, 43, 20, 3]
+player6 has drawn a 72 from bag Y
+player6 hand is [23, 15, 20, 48, 33, 47, 43, 20, 3, 72]
+player6 has discarded a 72 to bag B
+player6 hand is [23, 15, 20, 48, 33, 47, 43, 20, 3]
+player6 has drawn a 82 from bag Y
+player6 hand is [23, 15, 20, 48, 33, 47, 43, 20, 3, 82]
+player6 has discarded a 82 to bag B
+player6 hand is [23, 15, 20, 48, 33, 47, 43, 20, 3]
+player6 has drawn a 43 from bag X
+player6 hand is [23, 15, 20, 48, 33, 47, 43, 20, 3, 43]
+player6 has discarded a 48 to bag A
+player6 hand is [23, 15, 20, 33, 47, 43, 20, 3, 43]
+player6 has drawn a 59 from bag Y
+player6 hand is [23, 15, 20, 33, 47, 43, 20, 3, 43, 59]
+player6 has discarded a 59 to bag B
+player6 hand is [23, 15, 20, 33, 47, 43, 20, 3, 43]
+player6 has drawn a 46 from bag X
+player6 hand is [23, 15, 20, 33, 47, 43, 20, 3, 43, 46]
+player6 has discarded a 47 to bag A
+player6 hand is [23, 15, 20, 33, 43, 20, 3, 43, 46]
+player6 has drawn a 99 from bag Y
+player6 hand is [23, 15, 20, 33, 43, 20, 3, 43, 46, 99]
+player6 has discarded a 99 to bag B
+player6 hand is [23, 15, 20, 33, 43, 20, 3, 43, 46]
+player6 has drawn a 21 from bag Z
+player6 hand is [23, 15, 20, 33, 43, 20, 3, 43, 46, 21]
+player6 has discarded a 46 to bag C
+player6 hand is [23, 15, 20, 33, 43, 20, 3, 43, 21]
+player6 has drawn a 23 from bag Y
+player6 hand is [23, 15, 20, 33, 43, 20, 3, 43, 21, 23]
+player6 has discarded a 43 to bag B
+player6 hand is [23, 15, 20, 33, 20, 3, 43, 21, 23]
+player6 has drawn a 46 from bag Y
+player6 hand is [23, 15, 20, 33, 20, 3, 43, 21, 23, 46]
+player6 has discarded a 46 to bag B
+player6 hand is [23, 15, 20, 33, 20, 3, 43, 21, 23]
+player6 has drawn a 40 from bag X
+player6 hand is [23, 15, 20, 33, 20, 3, 43, 21, 23, 40]
+player6 has discarded a 43 to bag A
+player6 hand is [23, 15, 20, 33, 20, 3, 21, 23, 40]
+player6 has drawn a 30 from bag X
+player6 hand is [23, 15, 20, 33, 20, 3, 21, 23, 40, 30]
+player6 has discarded a 40 to bag A
+player6 hand is [23, 15, 20, 33, 20, 3, 21, 23, 30]
+player6 has drawn a 52 from bag X
+player6 hand is [23, 15, 20, 33, 20, 3, 21, 23, 30, 52]
+player6 has discarded a 52 to bag A
+player6 hand is [23, 15, 20, 33, 20, 3, 21, 23, 30]
+player6 has drawn a 74 from bag Z
+player6 hand is [23, 15, 20, 33, 20, 3, 21, 23, 30, 74]
+player6 has discarded a 74 to bag C
+player6 hand is [23, 15, 20, 33, 20, 3, 21, 23, 30]
+player6 has drawn a 17 from bag Y
+player6 hand is [23, 15, 20, 33, 20, 3, 21, 23, 30, 17]
+player6 has discarded a 33 to bag B
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 30, 17]
+player6 has drawn a 10 from bag Y
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 30, 17, 10]
+player6 has discarded a 30 to bag B
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 17, 10]
+player6 has drawn a 74 from bag Y
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 17, 10, 74]
+player6 has discarded a 74 to bag B
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 17, 10]
+player6 has drawn a 93 from bag X
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 17, 10, 93]
+player6 has discarded a 93 to bag A
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 17, 10]
+player6 has drawn a 62 from bag Z
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 17, 10, 62]
+player6 has discarded a 62 to bag C
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 17, 10]
+player6 has drawn a 7 from bag Y
+player6 hand is [23, 15, 20, 20, 3, 21, 23, 17, 10, 7]
+player6 has discarded a 23 to bag B
+player6 hand is [15, 20, 20, 3, 21, 23, 17, 10, 7]
+player6 has drawn a 9 from bag Y
+player6 hand is [15, 20, 20, 3, 21, 23, 17, 10, 7, 9]
+player6 has discarded a 23 to bag B
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 33 from bag X
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 33]
+player6 has discarded a 33 to bag A
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 79 from bag Y
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 79]
+player6 has discarded a 79 to bag B
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 40 from bag Y
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 40]
+player6 has discarded a 40 to bag B
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 78 from bag X
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 78]
+player6 has discarded a 78 to bag A
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 87 from bag Z
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 87]
+player6 has discarded a 87 to bag C
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 97 from bag Y
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 97]
+player6 has discarded a 97 to bag B
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 31 from bag Z
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 31]
+player6 has discarded a 31 to bag C
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 37 from bag X
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 37]
+player6 has discarded a 37 to bag A
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 96 from bag Z
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 96]
+player6 has discarded a 96 to bag C
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 60 from bag X
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 60]
+player6 has discarded a 60 to bag A
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9]
+player6 has drawn a 21 from bag Y
+player6 hand is [15, 20, 20, 3, 21, 17, 10, 7, 9, 21]
+player6 has discarded a 21 to bag B
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 79 from bag Z
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 79]
+player6 has discarded a 79 to bag C
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 68 from bag Z
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 68]
+player6 has discarded a 68 to bag C
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 81 from bag Z
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 81]
+player6 has discarded a 81 to bag C
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 24 from bag Z
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 24]
+player6 has discarded a 24 to bag C
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 68 from bag Y
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 68]
+player6 has discarded a 68 to bag B
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 97 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 97]
+player6 has discarded a 97 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 92 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 92]
+player6 has discarded a 92 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 80 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 80]
+player6 has discarded a 80 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 74 from bag Y
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 74]
+player6 has discarded a 74 to bag B
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 68 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 68]
+player6 has discarded a 68 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 44 from bag Z
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 44]
+player6 has discarded a 44 to bag C
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 39 from bag Z
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 39]
+player6 has discarded a 39 to bag C
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 99 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 99]
+player6 has discarded a 99 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 41 from bag Z
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 41]
+player6 has discarded a 41 to bag C
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 85 from bag Y
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 85]
+player6 has discarded a 85 to bag B
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 22 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 22]
+player6 has discarded a 22 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 41 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 41]
+player6 has discarded a 41 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 31 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 31]
+player6 has discarded a 31 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 90 from bag Z
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 90]
+player6 has discarded a 90 to bag C
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 91 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 91]
+player6 has discarded a 91 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 69 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 69]
+player6 has discarded a 69 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 82 from bag Y
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 82]
+player6 has discarded a 82 to bag B
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 67 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 67]
+player6 has discarded a 67 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 68 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 68]
+player6 has discarded a 68 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 70 from bag X
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 70]
+player6 has discarded a 70 to bag A
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21]
+player6 has drawn a 30 from bag Y
+player6 hand is [15, 20, 20, 3, 17, 10, 7, 9, 21, 30]

@@ -22,7 +22,7 @@ public class Bag {
     //Overload constructor for empty (white) bag
     public Bag(String bagName) {
         this.name = bagName;
-        this.pebbles = new ArrayList<>(0); //empty arraylist ready for filling
+        this.pebbles = new ArrayList<>(0); //empty Arraylist ready for filling
     }
 
     /**

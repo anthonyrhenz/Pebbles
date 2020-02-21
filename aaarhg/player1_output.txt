@@ -1,0 +1,184 @@
+player1 has discarded a 92 to bag C
+player1 hand is [86, 16, 31, 70, 76, 77, 51, 15, 82]
+player1 has drawn a 98 from bag X
+player1 hand is [86, 16, 31, 70, 76, 77, 51, 15, 82, 98]
+player1 has discarded a 98 to bag A
+player1 hand is [86, 16, 31, 70, 76, 77, 51, 15, 82]
+player1 has drawn a 74 from bag X
+player1 hand is [86, 16, 31, 70, 76, 77, 51, 15, 82, 74]
+player1 has discarded a 86 to bag A
+player1 hand is [16, 31, 70, 76, 77, 51, 15, 82, 74]
+player1 has drawn a 16 from bag X
+player1 hand is [16, 31, 70, 76, 77, 51, 15, 82, 74, 16]
+player1 has discarded a 82 to bag A
+player1 hand is [16, 31, 70, 76, 77, 51, 15, 74, 16]
+player1 has drawn a 8 from bag X
+player1 hand is [16, 31, 70, 76, 77, 51, 15, 74, 16, 8]
+player1 has discarded a 77 to bag A
+player1 hand is [16, 31, 70, 76, 51, 15, 74, 16, 8]
+player1 has drawn a 11 from bag X
+player1 hand is [16, 31, 70, 76, 51, 15, 74, 16, 8, 11]
+player1 has discarded a 76 to bag A
+player1 hand is [16, 31, 70, 51, 15, 74, 16, 8, 11]
+player1 has drawn a 89 from bag Z
+player1 hand is [16, 31, 70, 51, 15, 74, 16, 8, 11, 89]
+player1 has discarded a 89 to bag C
+player1 hand is [16, 31, 70, 51, 15, 74, 16, 8, 11]
+player1 has drawn a 76 from bag X
+player1 hand is [16, 31, 70, 51, 15, 74, 16, 8, 11, 76]
+player1 has discarded a 76 to bag A
+player1 hand is [16, 31, 70, 51, 15, 74, 16, 8, 11]
+player1 has drawn a 20 from bag Z
+player1 hand is [16, 31, 70, 51, 15, 74, 16, 8, 11, 20]
+player1 has discarded a 74 to bag C
+player1 hand is [16, 31, 70, 51, 15, 16, 8, 11, 20]
+player1 has drawn a 18 from bag Y
+player1 hand is [16, 31, 70, 51, 15, 16, 8, 11, 20, 18]
+player1 has discarded a 70 to bag B
+player1 hand is [16, 31, 51, 15, 16, 8, 11, 20, 18]
+player1 has drawn a 38 from bag Z
+player1 hand is [16, 31, 51, 15, 16, 8, 11, 20, 18, 38]
+player1 has discarded a 51 to bag C
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38]
+player1 has drawn a 94 from bag Y
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38, 94]
+player1 has discarded a 94 to bag B
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38]
+player1 has drawn a 91 from bag Y
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38, 91]
+player1 has discarded a 91 to bag B
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38]
+player1 has drawn a 70 from bag X
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38, 70]
+player1 has discarded a 70 to bag A
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38]
+player1 has drawn a 78 from bag X
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38, 78]
+player1 has discarded a 78 to bag A
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38]
+player1 has drawn a 90 from bag Z
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38, 90]
+player1 has discarded a 90 to bag C
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38]
+player1 has drawn a 64 from bag Y
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38, 64]
+player1 has discarded a 64 to bag B
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38]
+player1 has drawn a 62 from bag X
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38, 62]
+player1 has discarded a 62 to bag A
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38]
+player1 has drawn a 48 from bag Z
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38, 48]
+player1 has discarded a 48 to bag C
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38]
+player1 has drawn a 27 from bag X
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 38, 27]
+player1 has discarded a 38 to bag A
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 27]
+player1 has drawn a 1 from bag Z
+player1 hand is [16, 31, 15, 16, 8, 11, 20, 18, 27, 1]
+player1 has discarded a 31 to bag C
+player1 hand is [16, 15, 16, 8, 11, 20, 18, 27, 1]
+player1 has drawn a 91 from bag Z
+player1 hand is [16, 15, 16, 8, 11, 20, 18, 27, 1, 91]
+player1 has discarded a 91 to bag C
+player1 hand is [16, 15, 16, 8, 11, 20, 18, 27, 1]
+player1 has drawn a 13 from bag Z
+player1 hand is [16, 15, 16, 8, 11, 20, 18, 27, 1, 13]
+player1 has discarded a 27 to bag C
+player1 hand is [16, 15, 16, 8, 11, 20, 18, 1, 13]
+player1 has drawn a 37 from bag Z
+player1 hand is [16, 15, 16, 8, 11, 20, 18, 1, 13, 37]
+player1 has discarded a 37 to bag C
+player1 hand is [16, 15, 16, 8, 11, 20, 18, 1, 13]
+player1 has drawn a 5 from bag Z
+player1 hand is [16, 15, 16, 8, 11, 20, 18, 1, 13, 5]
+player1 has discarded a 20 to bag C
+player1 hand is [16, 15, 16, 8, 11, 18, 1, 13, 5]
+player1 has drawn a 3 from bag X
+player1 hand is [16, 15, 16, 8, 11, 18, 1, 13, 5, 3]
+player1 has discarded a 18 to bag A
+player1 hand is [16, 15, 16, 8, 11, 1, 13, 5, 3]
+player1 has drawn a 14 from bag X
+player1 hand is [16, 15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has discarded a 16 to bag A
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 56 from bag Y
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 56]
+player1 has discarded a 56 to bag B
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 47 from bag X
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 47]
+player1 has discarded a 47 to bag A
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 97 from bag X
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 97]
+player1 has discarded a 97 to bag A
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 21 from bag Z
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 21]
+player1 has discarded a 21 to bag C
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 32 from bag X
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 32]
+player1 has discarded a 32 to bag A
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 95 from bag Y
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 95]
+player1 has discarded a 95 to bag B
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 45 from bag X
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 45]
+player1 has discarded a 45 to bag A
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 93 from bag X
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 93]
+player1 has discarded a 93 to bag A
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 96 from bag X
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 96]
+player1 has discarded a 96 to bag A
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 26 from bag Y
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 26]
+player1 has discarded a 26 to bag B
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 66 from bag Z
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 66]
+player1 has discarded a 66 to bag C
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 57 from bag Z
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 57]
+player1 has discarded a 57 to bag C
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 59 from bag Z
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 59]
+player1 has discarded a 59 to bag C
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 67 from bag Z
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 67]
+player1 has discarded a 67 to bag C
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 90 from bag X
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 90]
+player1 has discarded a 90 to bag A
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14]
+player1 has drawn a 1 from bag X
+player1 hand is [15, 16, 8, 11, 1, 13, 5, 3, 14, 1]
+player1 has discarded a 16 to bag A
+player1 hand is [15, 8, 11, 1, 13, 5, 3, 14, 1]
+player1 has drawn a 6 from bag Y
+player1 hand is [15, 8, 11, 1, 13, 5, 3, 14, 1, 6]
+player1 has discarded a 15 to bag B
+player1 hand is [8, 11, 1, 13, 5, 3, 14, 1, 6]
+player1 has drawn a 46 from bag X
+player1 hand is [8, 11, 1, 13, 5, 3, 14, 1, 6, 46]
+player1 has discarded a 46 to bag A
+player1 hand is [8, 11, 1, 13, 5, 3, 14, 1, 6]
+player1 has drawn a 81 from bag Z
+player1 hand is [8, 11, 1, 13, 5, 3, 14, 1, 6, 81]
+player1 has discarded a 81 to bag C
+player1 hand is [8, 11, 1, 13, 5, 3, 14, 1, 6]
+player1 has drawn a 82 from bag Y
+player1 hand is [8, 11, 1, 13, 5, 3, 14, 1, 6, 82]

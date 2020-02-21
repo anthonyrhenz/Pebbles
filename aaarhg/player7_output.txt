@@ -1,0 +1,188 @@
+player7 has discarded a 98 to bag B
+player7 hand is [57, 13, 51, 6, 42, 55, 73, 1, 67]
+player7 has drawn a 35 from bag X
+player7 hand is [57, 13, 51, 6, 42, 55, 73, 1, 67, 35]
+player7 has discarded a 73 to bag A
+player7 hand is [57, 13, 51, 6, 42, 55, 1, 67, 35]
+player7 has drawn a 38 from bag Z
+player7 hand is [57, 13, 51, 6, 42, 55, 1, 67, 35, 38]
+player7 has discarded a 67 to bag C
+player7 hand is [57, 13, 51, 6, 42, 55, 1, 35, 38]
+player7 has drawn a 76 from bag Y
+player7 hand is [57, 13, 51, 6, 42, 55, 1, 35, 38, 76]
+player7 has discarded a 76 to bag B
+player7 hand is [57, 13, 51, 6, 42, 55, 1, 35, 38]
+player7 has drawn a 37 from bag Y
+player7 hand is [57, 13, 51, 6, 42, 55, 1, 35, 38, 37]
+player7 has discarded a 57 to bag B
+player7 hand is [13, 51, 6, 42, 55, 1, 35, 38, 37]
+player7 has drawn a 41 from bag X
+player7 hand is [13, 51, 6, 42, 55, 1, 35, 38, 37, 41]
+player7 has discarded a 55 to bag A
+player7 hand is [13, 51, 6, 42, 1, 35, 38, 37, 41]
+player7 has drawn a 82 from bag Z
+player7 hand is [13, 51, 6, 42, 1, 35, 38, 37, 41, 82]
+player7 has discarded a 82 to bag C
+player7 hand is [13, 51, 6, 42, 1, 35, 38, 37, 41]
+player7 has drawn a 90 from bag Z
+player7 hand is [13, 51, 6, 42, 1, 35, 38, 37, 41, 90]
+player7 has discarded a 90 to bag C
+player7 hand is [13, 51, 6, 42, 1, 35, 38, 37, 41]
+player7 has drawn a 29 from bag Z
+player7 hand is [13, 51, 6, 42, 1, 35, 38, 37, 41, 29]
+player7 has discarded a 51 to bag C
+player7 hand is [13, 6, 42, 1, 35, 38, 37, 41, 29]
+player7 has drawn a 62 from bag Z
+player7 hand is [13, 6, 42, 1, 35, 38, 37, 41, 29, 62]
+player7 has discarded a 62 to bag C
+player7 hand is [13, 6, 42, 1, 35, 38, 37, 41, 29]
+player7 has drawn a 41 from bag Y
+player7 hand is [13, 6, 42, 1, 35, 38, 37, 41, 29, 41]
+player7 has discarded a 42 to bag B
+player7 hand is [13, 6, 1, 35, 38, 37, 41, 29, 41]
+player7 has drawn a 39 from bag X
+player7 hand is [13, 6, 1, 35, 38, 37, 41, 29, 41, 39]
+player7 has discarded a 41 to bag A
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 41, 39]
+player7 has drawn a 85 from bag Y
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 41, 39, 85]
+player7 has discarded a 85 to bag B
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 41, 39]
+player7 has drawn a 52 from bag Y
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 41, 39, 52]
+player7 has discarded a 52 to bag B
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 41, 39]
+player7 has drawn a 32 from bag Y
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 41, 39, 32]
+player7 has discarded a 41 to bag B
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 39, 32]
+player7 has drawn a 87 from bag Y
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 39, 32, 87]
+player7 has discarded a 87 to bag B
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 39, 32]
+player7 has drawn a 72 from bag Z
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 39, 32, 72]
+player7 has discarded a 72 to bag C
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 39, 32]
+player7 has drawn a 52 from bag X
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 39, 32, 52]
+player7 has discarded a 52 to bag A
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 39, 32]
+player7 has drawn a 25 from bag X
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 39, 32, 25]
+player7 has discarded a 39 to bag A
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 32, 25]
+player7 has drawn a 37 from bag X
+player7 hand is [13, 6, 1, 35, 38, 37, 29, 32, 25, 37]
+player7 has discarded a 38 to bag A
+player7 hand is [13, 6, 1, 35, 37, 29, 32, 25, 37]
+player7 has drawn a 35 from bag Y
+player7 hand is [13, 6, 1, 35, 37, 29, 32, 25, 37, 35]
+player7 has discarded a 37 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 86 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 86]
+player7 has discarded a 86 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 81 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 81]
+player7 has discarded a 81 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 94 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 94]
+player7 has discarded a 94 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 74 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 74]
+player7 has discarded a 74 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 45 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 45]
+player7 has discarded a 45 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 91 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 91]
+player7 has discarded a 91 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 71 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 71]
+player7 has discarded a 71 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 53 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 53]
+player7 has discarded a 53 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 88 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 88]
+player7 has discarded a 88 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 51 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 51]
+player7 has discarded a 51 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 75 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 75]
+player7 has discarded a 75 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 38 from bag X
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 38]
+player7 has discarded a 38 to bag A
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 92 from bag X
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 92]
+player7 has discarded a 92 to bag A
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 43 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 43]
+player7 has discarded a 43 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35]
+player7 has drawn a 32 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 37, 35, 32]
+player7 has discarded a 37 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 95 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 95]
+player7 has discarded a 95 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 78 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 78]
+player7 has discarded a 78 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 85 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 85]
+player7 has discarded a 85 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 75 from bag X
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 75]
+player7 has discarded a 75 to bag A
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 88 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 88]
+player7 has discarded a 88 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 36 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 36]
+player7 has discarded a 36 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 95 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 95]
+player7 has discarded a 95 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 54 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 54]
+player7 has discarded a 54 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 91 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 91]
+player7 has discarded a 91 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 86 from bag Z
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 86]
+player7 has discarded a 86 to bag C
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 37 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 37]
+player7 has discarded a 37 to bag B
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32]
+player7 has drawn a 93 from bag Y
+player7 hand is [13, 6, 1, 35, 29, 32, 25, 35, 32, 93]

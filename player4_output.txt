@@ -1,0 +1,244 @@
+player4 has discarded a 95 to bag B
+player4 hand is [52, 91, 12, 22, 8, 32, 74, 70, 43]
+player4 has drawn a 89 from bag Y
+player4 hand is [52, 91, 12, 22, 8, 32, 74, 70, 43, 89]
+player4 has discarded a 91 to bag B
+player4 hand is [52, 12, 22, 8, 32, 74, 70, 43, 89]
+player4 has drawn a 92 from bag X
+player4 hand is [52, 12, 22, 8, 32, 74, 70, 43, 89, 92]
+player4 has discarded a 92 to bag A
+player4 hand is [52, 12, 22, 8, 32, 74, 70, 43, 89]
+player4 has drawn a 31 from bag Y
+player4 hand is [52, 12, 22, 8, 32, 74, 70, 43, 89, 31]
+player4 has discarded a 89 to bag B
+player4 hand is [52, 12, 22, 8, 32, 74, 70, 43, 31]
+player4 has drawn a 87 from bag X
+player4 hand is [52, 12, 22, 8, 32, 74, 70, 43, 31, 87]
+player4 has discarded a 87 to bag A
+player4 hand is [52, 12, 22, 8, 32, 74, 70, 43, 31]
+player4 has drawn a 16 from bag X
+player4 hand is [52, 12, 22, 8, 32, 74, 70, 43, 31, 16]
+player4 has discarded a 74 to bag A
+player4 hand is [52, 12, 22, 8, 32, 70, 43, 31, 16]
+player4 has drawn a 78 from bag Z
+player4 hand is [52, 12, 22, 8, 32, 70, 43, 31, 16, 78]
+player4 has discarded a 78 to bag C
+player4 hand is [52, 12, 22, 8, 32, 70, 43, 31, 16]
+player4 has drawn a 88 from bag Y
+player4 hand is [52, 12, 22, 8, 32, 70, 43, 31, 16, 88]
+player4 has discarded a 88 to bag B
+player4 hand is [52, 12, 22, 8, 32, 70, 43, 31, 16]
+player4 has drawn a 36 from bag X
+player4 hand is [52, 12, 22, 8, 32, 70, 43, 31, 16, 36]
+player4 has discarded a 70 to bag A
+player4 hand is [52, 12, 22, 8, 32, 43, 31, 16, 36]
+player4 has drawn a 49 from bag Y
+player4 hand is [52, 12, 22, 8, 32, 43, 31, 16, 36, 49]
+player4 has discarded a 52 to bag B
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 49]
+player4 has drawn a 79 from bag X
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 49, 79]
+player4 has discarded a 79 to bag A
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 49]
+player4 has drawn a 22 from bag X
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 49, 22]
+player4 has discarded a 49 to bag A
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 22]
+player4 has drawn a 99 from bag X
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 22, 99]
+player4 has discarded a 99 to bag A
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 22]
+player4 has drawn a 60 from bag Y
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 22, 60]
+player4 has discarded a 60 to bag B
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 22]
+player4 has drawn a 35 from bag Y
+player4 hand is [12, 22, 8, 32, 43, 31, 16, 36, 22, 35]
+player4 has discarded a 43 to bag B
+player4 hand is [12, 22, 8, 32, 31, 16, 36, 22, 35]
+player4 has drawn a 65 from bag X
+player4 hand is [12, 22, 8, 32, 31, 16, 36, 22, 35, 65]
+player4 has discarded a 65 to bag A
+player4 hand is [12, 22, 8, 32, 31, 16, 36, 22, 35]
+player4 has drawn a 24 from bag X
+player4 hand is [12, 22, 8, 32, 31, 16, 36, 22, 35, 24]
+player4 has discarded a 36 to bag A
+player4 hand is [12, 22, 8, 32, 31, 16, 22, 35, 24]
+player4 has drawn a 97 from bag Z
+player4 hand is [12, 22, 8, 32, 31, 16, 22, 35, 24, 97]
+player4 has discarded a 97 to bag C
+player4 hand is [12, 22, 8, 32, 31, 16, 22, 35, 24]
+player4 has drawn a 47 from bag X
+player4 hand is [12, 22, 8, 32, 31, 16, 22, 35, 24, 47]
+player4 has discarded a 47 to bag A
+player4 hand is [12, 22, 8, 32, 31, 16, 22, 35, 24]
+player4 has drawn a 10 from bag Z
+player4 hand is [12, 22, 8, 32, 31, 16, 22, 35, 24, 10]
+player4 has discarded a 35 to bag C
+player4 hand is [12, 22, 8, 32, 31, 16, 22, 24, 10]
+player4 has drawn a 20 from bag X
+player4 hand is [12, 22, 8, 32, 31, 16, 22, 24, 10, 20]
+player4 has discarded a 32 to bag A
+player4 hand is [12, 22, 8, 31, 16, 22, 24, 10, 20]
+player4 has drawn a 81 from bag Y
+player4 hand is [12, 22, 8, 31, 16, 22, 24, 10, 20, 81]
+player4 has discarded a 81 to bag B
+player4 hand is [12, 22, 8, 31, 16, 22, 24, 10, 20]
+player4 has drawn a 28 from bag Z
+player4 hand is [12, 22, 8, 31, 16, 22, 24, 10, 20, 28]
+player4 has discarded a 31 to bag C
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 28]
+player4 has drawn a 13 from bag Y
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 28, 13]
+player4 has discarded a 28 to bag B
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13]
+player4 has drawn a 50 from bag Y
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13, 50]
+player4 has discarded a 50 to bag B
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13]
+player4 has drawn a 44 from bag X
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13, 44]
+player4 has discarded a 44 to bag A
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13]
+player4 has drawn a 100 from bag Y
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13, 100]
+player4 has discarded a 100 to bag B
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13]
+player4 has drawn a 53 from bag X
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13, 53]
+player4 has discarded a 53 to bag A
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13]
+player4 has drawn a 21 from bag Z
+player4 hand is [12, 22, 8, 16, 22, 24, 10, 20, 13, 21]
+player4 has discarded a 24 to bag C
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21]
+player4 has drawn a 46 from bag X
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21, 46]
+player4 has discarded a 46 to bag A
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21]
+player4 has drawn a 60 from bag Z
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21, 60]
+player4 has discarded a 60 to bag C
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21]
+player4 has drawn a 96 from bag X
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21, 96]
+player4 has discarded a 96 to bag A
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21]
+player4 has drawn a 69 from bag X
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21, 69]
+player4 has discarded a 69 to bag A
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21]
+player4 has drawn a 60 from bag X
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21, 60]
+player4 has discarded a 60 to bag A
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21]
+player4 has drawn a 70 from bag Z
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21, 70]
+player4 has discarded a 70 to bag C
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21]
+player4 has drawn a 1 from bag Z
+player4 hand is [12, 22, 8, 16, 22, 10, 20, 13, 21, 1]
+player4 has discarded a 22 to bag C
+player4 hand is [12, 8, 16, 22, 10, 20, 13, 21, 1]
+player4 has drawn a 53 from bag Z
+player4 hand is [12, 8, 16, 22, 10, 20, 13, 21, 1, 53]
+player4 has discarded a 53 to bag C
+player4 hand is [12, 8, 16, 22, 10, 20, 13, 21, 1]
+player4 has drawn a 5 from bag X
+player4 hand is [12, 8, 16, 22, 10, 20, 13, 21, 1, 5]
+player4 has discarded a 22 to bag A
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 45 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 45]
+player4 has discarded a 45 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 39 from bag Z
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 39]
+player4 has discarded a 39 to bag C
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 30 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 30]
+player4 has discarded a 30 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 84 from bag X
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 84]
+player4 has discarded a 84 to bag A
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 24 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 24]
+player4 has discarded a 24 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 62 from bag X
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 62]
+player4 has discarded a 62 to bag A
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 72 from bag Z
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 72]
+player4 has discarded a 72 to bag C
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 75 from bag Z
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 75]
+player4 has discarded a 75 to bag C
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 45 from bag Z
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 45]
+player4 has discarded a 45 to bag C
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 27 from bag Z
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 27]
+player4 has discarded a 27 to bag C
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5]
+player4 has drawn a 18 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 21, 1, 5, 18]
+player4 has discarded a 21 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 56 from bag X
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 56]
+player4 has discarded a 56 to bag A
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 51 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 51]
+player4 has discarded a 51 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 63 from bag Z
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 63]
+player4 has discarded a 63 to bag C
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 98 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 98]
+player4 has discarded a 98 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 84 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 84]
+player4 has discarded a 84 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 73 from bag X
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 73]
+player4 has discarded a 73 to bag A
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 94 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 94]
+player4 has discarded a 94 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 68 from bag X
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 68]
+player4 has discarded a 68 to bag A
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 82 from bag X
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 82]
+player4 has discarded a 82 to bag A
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 88 from bag X
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 88]
+player4 has discarded a 88 to bag A
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 23 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 23]
+player4 has discarded a 23 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 79 from bag Y
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 79]
+player4 has discarded a 79 to bag B
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18]
+player4 has drawn a 1 from bag X
+player4 hand is [12, 8, 16, 10, 20, 13, 1, 5, 18, 1]

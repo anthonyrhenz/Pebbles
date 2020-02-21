@@ -37,7 +37,7 @@ public class Main {
             this.shouldDiscardHighest = shouldDiscardHighest;
 
             //load player hands at construction
-            randomBag = ThreadLocalRandom.current().nextInt( 0, 3 );
+                                randomBag = ThreadLocalRandom.current().nextInt( 0, 3 );
             for (int i = 0; i < 10; ++i) {
                 this.hand.add(bags[0][randomBag].takeRandomPebble());
             }

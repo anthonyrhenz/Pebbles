@@ -1,0 +1,1129 @@
+player2 has discarded a 90 to bag B
+player2 hand is [71, 47, 2, 8, 44, 45, 23, 76, 65]
+player2 has drawn a 81 from bag X
+player2 hand is [71, 47, 2, 8, 44, 45, 23, 76, 65, 81]
+player2 has discarded a 81 to bag A
+player2 hand is [71, 47, 2, 8, 44, 45, 23, 76, 65]
+player2 has drawn a 9 from bag Z
+player2 hand is [71, 47, 2, 8, 44, 45, 23, 76, 65, 9]
+player2 has discarded a 76 to bag C
+player2 hand is [71, 47, 2, 8, 44, 45, 23, 65, 9]
+player2 has drawn a 6 from bag X
+player2 hand is [71, 47, 2, 8, 44, 45, 23, 65, 9, 6]
+player2 has discarded a 71 to bag A
+player2 hand is [47, 2, 8, 44, 45, 23, 65, 9, 6]
+player2 has drawn a 86 from bag Y
+player2 hand is [47, 2, 8, 44, 45, 23, 65, 9, 6, 86]
+player2 has discarded a 86 to bag B
+player2 hand is [47, 2, 8, 44, 45, 23, 65, 9, 6]
+player2 has drawn a 16 from bag Z
+player2 hand is [47, 2, 8, 44, 45, 23, 65, 9, 6, 16]
+player2 has discarded a 65 to bag C
+player2 hand is [47, 2, 8, 44, 45, 23, 9, 6, 16]
+player2 has drawn a 13 from bag Y
+player2 hand is [47, 2, 8, 44, 45, 23, 9, 6, 16, 13]
+player2 has discarded a 47 to bag B
+player2 hand is [2, 8, 44, 45, 23, 9, 6, 16, 13]
+player2 has drawn a 1 from bag X
+player2 hand is [2, 8, 44, 45, 23, 9, 6, 16, 13, 1]
+player2 has discarded a 45 to bag A
+player2 hand is [2, 8, 44, 23, 9, 6, 16, 13, 1]
+player2 has drawn a 60 from bag Y
+player2 hand is [2, 8, 44, 23, 9, 6, 16, 13, 1, 60]
+player2 has discarded a 60 to bag B
+player2 hand is [2, 8, 44, 23, 9, 6, 16, 13, 1]
+player2 has drawn a 16 from bag Y
+player2 hand is [2, 8, 44, 23, 9, 6, 16, 13, 1, 16]
+player2 has discarded a 44 to bag B
+player2 hand is [2, 8, 23, 9, 6, 16, 13, 1, 16]
+player2 has drawn a 66 from bag Y
+player2 hand is [2, 8, 23, 9, 6, 16, 13, 1, 16, 66]
+player2 has discarded a 66 to bag B
+player2 hand is [2, 8, 23, 9, 6, 16, 13, 1, 16]
+player2 has drawn a 21 from bag Z
+player2 hand is [2, 8, 23, 9, 6, 16, 13, 1, 16, 21]
+player2 has discarded a 23 to bag C
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 21]
+player2 has drawn a 11 from bag X
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 21, 11]
+player2 has discarded a 21 to bag A
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 77 from bag Y
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 77]
+player2 has discarded a 77 to bag B
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 60 from bag X
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 60]
+player2 has discarded a 60 to bag A
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 94 from bag Y
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 94]
+player2 has discarded a 94 to bag B
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 97 from bag Y
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 97]
+player2 has discarded a 97 to bag B
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 64 from bag Z
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 64]
+player2 has discarded a 64 to bag C
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 95 from bag Z
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 95]
+player2 has discarded a 95 to bag C
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 98 from bag Z
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 98]
+player2 has discarded a 98 to bag C
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 62 from bag Z
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 62]
+player2 has discarded a 62 to bag C
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 68 from bag Z
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 68]
+player2 has discarded a 68 to bag C
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11]
+player2 has drawn a 11 from bag Y
+player2 hand is [2, 8, 9, 6, 16, 13, 1, 16, 11, 11]
+player2 has discarded a 16 to bag B
+player2 hand is [2, 8, 9, 6, 13, 1, 16, 11, 11]
+player2 has drawn a 58 from bag Y
+player2 hand is [2, 8, 9, 6, 13, 1, 16, 11, 11, 58]
+player2 has discarded a 58 to bag B
+player2 hand is [2, 8, 9, 6, 13, 1, 16, 11, 11]
+player2 has drawn a 12 from bag Y
+player2 hand is [2, 8, 9, 6, 13, 1, 16, 11, 11, 12]
+player2 has discarded a 16 to bag B
+player2 hand is [2, 8, 9, 6, 13, 1, 11, 11, 12]
+player2 has drawn a 6 from bag Z
+player2 hand is [2, 8, 9, 6, 13, 1, 11, 11, 12, 6]
+player2 has discarded a 13 to bag C
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6]
+player2 has drawn a 19 from bag X
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6, 19]
+player2 has discarded a 19 to bag A
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6]
+player2 has drawn a 61 from bag Y
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6, 61]
+player2 has discarded a 61 to bag B
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6]
+player2 has drawn a 84 from bag Y
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6, 84]
+player2 has discarded a 84 to bag B
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6]
+player2 has drawn a 39 from bag X
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6, 39]
+player2 has discarded a 39 to bag A
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6]
+player2 has drawn a 4 from bag Y
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 12, 6, 4]
+player2 has discarded a 12 to bag B
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4]
+player2 has drawn a 75 from bag Y
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4, 75]
+player2 has discarded a 75 to bag B
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4]
+player2 has drawn a 19 from bag Y
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4, 19]
+player2 has discarded a 19 to bag B
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4]
+player2 has drawn a 99 from bag Z
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4, 99]
+player2 has discarded a 99 to bag C
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4]
+player2 has drawn a 97 from bag Z
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4, 97]
+player2 has discarded a 97 to bag C
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4]
+player2 has drawn a 87 from bag Y
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4, 87]
+player2 has discarded a 87 to bag B
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4]
+player2 has drawn a 17 from bag Y
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4, 17]
+player2 has discarded a 17 to bag B
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4]
+player2 has drawn a 32 from bag X
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4, 32]
+player2 has discarded a 32 to bag A
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4]
+player2 has drawn a 9 from bag Y
+player2 hand is [2, 8, 9, 6, 1, 11, 11, 6, 4, 9]
+player2 has discarded a 11 to bag B
+player2 hand is [2, 8, 9, 6, 1, 11, 6, 4, 9]
+player2 has drawn a 32 from bag Z
+player2 hand is [2, 8, 9, 6, 1, 11, 6, 4, 9, 32]
+player2 has discarded a 32 to bag C
+player2 hand is [2, 8, 9, 6, 1, 11, 6, 4, 9]
+player2 has drawn a 22 from bag Z
+player2 hand is [2, 8, 9, 6, 1, 11, 6, 4, 9, 22]
+player2 has discarded a 22 to bag C
+player2 hand is [2, 8, 9, 6, 1, 11, 6, 4, 9]
+player2 has drawn a 3 from bag Y
+player2 hand is [2, 8, 9, 6, 1, 11, 6, 4, 9, 3]
+player2 has discarded a 11 to bag B
+player2 hand is [2, 8, 9, 6, 1, 6, 4, 9, 3]
+player2 has drawn a 63 from bag X
+player2 hand is [2, 8, 9, 6, 1, 6, 4, 9, 3, 63]
+player2 has discarded a 63 to bag A
+player2 hand is [2, 8, 9, 6, 1, 6, 4, 9, 3]
+player2 has drawn a 79 from bag Z
+player2 hand is [2, 8, 9, 6, 1, 6, 4, 9, 3, 79]
+player2 has discarded a 79 to bag C
+player2 hand is [2, 8, 9, 6, 1, 6, 4, 9, 3]
+player2 has drawn a 100 from bag X
+player2 hand is [2, 8, 9, 6, 1, 6, 4, 9, 3, 100]
+player2 has discarded a 100 to bag A
+player2 hand is [2, 8, 9, 6, 1, 6, 4, 9, 3]
+player2 has drawn a 7 from bag X
+player2 hand is [2, 8, 9, 6, 1, 6, 4, 9, 3, 7]
+player2 has discarded a 9 to bag A
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7]
+player2 has drawn a 30 from bag Z
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7, 30]
+player2 has discarded a 30 to bag C
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7]
+player2 has drawn a 91 from bag Z
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7, 91]
+player2 has discarded a 91 to bag C
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7]
+player2 has drawn a 29 from bag X
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7, 29]
+player2 has discarded a 29 to bag A
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7]
+player2 has drawn a 56 from bag Z
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7, 56]
+player2 has discarded a 56 to bag C
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7]
+player2 has drawn a 6 from bag Y
+player2 hand is [2, 8, 6, 1, 6, 4, 9, 3, 7, 6]
+player2 has discarded a 9 to bag B
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6]
+player2 has drawn a 94 from bag X
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6, 94]
+player2 has discarded a 94 to bag A
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6]
+player2 has drawn a 24 from bag Y
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6, 24]
+player2 has discarded a 24 to bag B
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6]
+player2 has drawn a 84 from bag Z
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6, 84]
+player2 has discarded a 84 to bag C
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6]
+player2 has drawn a 96 from bag X
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6, 96]
+player2 has discarded a 96 to bag A
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6]
+player2 has drawn a 8 from bag Z
+player2 hand is [2, 8, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has discarded a 8 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 75 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 75]
+player2 has discarded a 75 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 88 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 88]
+player2 has discarded a 88 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 79 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 79]
+player2 has discarded a 79 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 22 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 22]
+player2 has discarded a 22 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 76 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 76]
+player2 has discarded a 76 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 40 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 40]
+player2 has discarded a 40 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 81 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 81]
+player2 has discarded a 81 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 96 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 96]
+player2 has discarded a 96 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 85 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 85]
+player2 has discarded a 85 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 25 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 25]
+player2 has discarded a 25 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 85 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 85]
+player2 has discarded a 85 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 72 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 72]
+player2 has discarded a 72 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 20 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 20]
+player2 has discarded a 20 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 35 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 35]
+player2 has discarded a 35 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 42 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 42]
+player2 has discarded a 42 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 59 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 59]
+player2 has discarded a 59 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8]
+player2 has drawn a 5 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 8, 5]
+player2 has discarded a 8 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 5]
+player2 has drawn a 31 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 5, 31]
+player2 has discarded a 31 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 5]
+player2 has drawn a 1 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 7, 6, 5, 1]
+player2 has discarded a 7 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 43 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 43]
+player2 has discarded a 43 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 29 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 29]
+player2 has discarded a 29 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 69 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 69]
+player2 has discarded a 69 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 30 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 30]
+player2 has discarded a 30 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 26 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 26]
+player2 has discarded a 26 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 73 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 73]
+player2 has discarded a 73 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 82 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 82]
+player2 has discarded a 82 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 54 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 54]
+player2 has discarded a 54 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 61 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 61]
+player2 has discarded a 61 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 21 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 21]
+player2 has discarded a 21 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 28 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 28]
+player2 has discarded a 28 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 53 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 53]
+player2 has discarded a 53 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 62 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 62]
+player2 has discarded a 62 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 41 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 41]
+player2 has discarded a 41 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 17 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 17]
+player2 has discarded a 17 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 50 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 50]
+player2 has discarded a 50 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 74 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 74]
+player2 has discarded a 74 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 38 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 38]
+player2 has discarded a 38 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 37 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 37]
+player2 has discarded a 37 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 14 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 14]
+player2 has discarded a 14 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 35 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 35]
+player2 has discarded a 35 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 47 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 47]
+player2 has discarded a 47 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 36 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 36]
+player2 has discarded a 36 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 56 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 56]
+player2 has discarded a 56 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 85 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 85]
+player2 has discarded a 85 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 71 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 71]
+player2 has discarded a 71 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 18 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 18]
+player2 has discarded a 18 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 49 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 49]
+player2 has discarded a 49 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 13 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 13]
+player2 has discarded a 13 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 74 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 74]
+player2 has discarded a 74 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 86 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 86]
+player2 has discarded a 86 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 12 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 12]
+player2 has discarded a 12 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 58 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 58]
+player2 has discarded a 58 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 16 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 16]
+player2 has discarded a 16 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 62 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 62]
+player2 has discarded a 62 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 96 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 96]
+player2 has discarded a 96 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 91 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 91]
+player2 has discarded a 91 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 14 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 14]
+player2 has discarded a 14 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 68 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 68]
+player2 has discarded a 68 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 93 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 93]
+player2 has discarded a 93 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 89 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 89]
+player2 has discarded a 89 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 37 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 37]
+player2 has discarded a 37 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 62 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 62]
+player2 has discarded a 62 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 40 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 40]
+player2 has discarded a 40 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 46 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 46]
+player2 has discarded a 46 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 54 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 54]
+player2 has discarded a 54 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 8 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 8]
+player2 has discarded a 8 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 87 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 87]
+player2 has discarded a 87 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 98 from bag Y
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 98]
+player2 has discarded a 98 to bag B
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 65 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 65]
+player2 has discarded a 65 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 15 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 15]
+player2 has discarded a 15 to bag A
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 13 from bag Z
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 13]
+player2 has discarded a 13 to bag C
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1]
+player2 has drawn a 4 from bag X
+player2 hand is [2, 6, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has discarded a 6 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 100 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 100]
+player2 has discarded a 100 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 91 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 91]
+player2 has discarded a 91 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 41 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 41]
+player2 has discarded a 41 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 57 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 57]
+player2 has discarded a 57 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 44 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 44]
+player2 has discarded a 44 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 24 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 24]
+player2 has discarded a 24 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 97 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 97]
+player2 has discarded a 97 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 56 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 56]
+player2 has discarded a 56 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 47 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 47]
+player2 has discarded a 47 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 44 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 44]
+player2 has discarded a 44 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 52 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 52]
+player2 has discarded a 52 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 59 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 59]
+player2 has discarded a 59 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 81 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 81]
+player2 has discarded a 81 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 21 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 21]
+player2 has discarded a 21 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 34 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 34]
+player2 has discarded a 34 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 28 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 28]
+player2 has discarded a 28 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 33 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 33]
+player2 has discarded a 33 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 98 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 98]
+player2 has discarded a 98 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 92 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 92]
+player2 has discarded a 92 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 61 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 61]
+player2 has discarded a 61 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 25 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 25]
+player2 has discarded a 25 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 41 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 41]
+player2 has discarded a 41 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 73 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 73]
+player2 has discarded a 73 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 31 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 31]
+player2 has discarded a 31 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 83 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 83]
+player2 has discarded a 83 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 33 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 33]
+player2 has discarded a 33 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 85 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 85]
+player2 has discarded a 85 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 83 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 83]
+player2 has discarded a 83 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 63 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 63]
+player2 has discarded a 63 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 30 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 30]
+player2 has discarded a 30 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 16 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 16]
+player2 has discarded a 16 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 58 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 58]
+player2 has discarded a 58 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 69 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 69]
+player2 has discarded a 69 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 67 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 67]
+player2 has discarded a 67 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 12 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 12]
+player2 has discarded a 12 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 73 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 73]
+player2 has discarded a 73 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 96 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 96]
+player2 has discarded a 96 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 30 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 30]
+player2 has discarded a 30 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 38 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 38]
+player2 has discarded a 38 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 39 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 39]
+player2 has discarded a 39 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 75 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 75]
+player2 has discarded a 75 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 54 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 54]
+player2 has discarded a 54 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 41 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 41]
+player2 has discarded a 41 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 34 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 34]
+player2 has discarded a 34 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 60 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 60]
+player2 has discarded a 60 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 94 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 94]
+player2 has discarded a 94 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 29 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 29]
+player2 has discarded a 29 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 34 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 34]
+player2 has discarded a 34 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 39 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 39]
+player2 has discarded a 39 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 15 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 15]
+player2 has discarded a 15 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 33 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 33]
+player2 has discarded a 33 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 36 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 36]
+player2 has discarded a 36 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 69 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 69]
+player2 has discarded a 69 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 97 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 97]
+player2 has discarded a 97 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 43 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 43]
+player2 has discarded a 43 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 78 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 78]
+player2 has discarded a 78 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 12 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 12]
+player2 has discarded a 12 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 89 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 89]
+player2 has discarded a 89 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 80 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 80]
+player2 has discarded a 80 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 37 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 37]
+player2 has discarded a 37 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 13 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 13]
+player2 has discarded a 13 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 41 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 41]
+player2 has discarded a 41 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 23 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 23]
+player2 has discarded a 23 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 96 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 96]
+player2 has discarded a 96 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 91 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 91]
+player2 has discarded a 91 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 100 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 100]
+player2 has discarded a 100 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 27 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 27]
+player2 has discarded a 27 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 30 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 30]
+player2 has discarded a 30 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 14 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 14]
+player2 has discarded a 14 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 93 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 93]
+player2 has discarded a 93 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 98 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 98]
+player2 has discarded a 98 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 14 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 14]
+player2 has discarded a 14 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 73 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 73]
+player2 has discarded a 73 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 18 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 18]
+player2 has discarded a 18 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 15 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 15]
+player2 has discarded a 15 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 38 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 38]
+player2 has discarded a 38 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 53 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 53]
+player2 has discarded a 53 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 87 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 87]
+player2 has discarded a 87 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 95 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 95]
+player2 has discarded a 95 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 17 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 17]
+player2 has discarded a 17 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 67 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 67]
+player2 has discarded a 67 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 43 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 43]
+player2 has discarded a 43 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 59 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 59]
+player2 has discarded a 59 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 28 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 28]
+player2 has discarded a 28 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 32 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 32]
+player2 has discarded a 32 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 85 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 85]
+player2 has discarded a 85 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 42 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 42]
+player2 has discarded a 42 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 58 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 58]
+player2 has discarded a 58 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 65 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 65]
+player2 has discarded a 65 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 55 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 55]
+player2 has discarded a 55 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 88 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 88]
+player2 has discarded a 88 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 20 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 20]
+player2 has discarded a 20 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 37 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 37]
+player2 has discarded a 37 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 19 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 19]
+player2 has discarded a 19 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 47 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 47]
+player2 has discarded a 47 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 82 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 82]
+player2 has discarded a 82 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 8 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 8]
+player2 has discarded a 8 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 63 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 63]
+player2 has discarded a 63 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 25 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 25]
+player2 has discarded a 25 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 89 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 89]
+player2 has discarded a 89 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 94 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 94]
+player2 has discarded a 94 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 44 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 44]
+player2 has discarded a 44 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 34 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 34]
+player2 has discarded a 34 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 39 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 39]
+player2 has discarded a 39 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 73 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 73]
+player2 has discarded a 73 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 75 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 75]
+player2 has discarded a 75 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 54 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 54]
+player2 has discarded a 54 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 80 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 80]
+player2 has discarded a 80 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 29 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 29]
+player2 has discarded a 29 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 49 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 49]
+player2 has discarded a 49 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 75 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 75]
+player2 has discarded a 75 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 27 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 27]
+player2 has discarded a 27 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 76 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 76]
+player2 has discarded a 76 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 98 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 98]
+player2 has discarded a 98 to bag A
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 62 from bag Y
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 62]
+player2 has discarded a 62 to bag B
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 35 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 35]
+player2 has discarded a 35 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 95 from bag Z
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 95]
+player2 has discarded a 95 to bag C
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4]
+player2 has drawn a 6 from bag X
+player2 hand is [2, 1, 6, 4, 3, 6, 5, 1, 4, 6]
+player2 has discarded a 6 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 79 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 79]
+player2 has discarded a 79 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 99 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 99]
+player2 has discarded a 99 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 92 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 92]
+player2 has discarded a 92 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 86 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 86]
+player2 has discarded a 86 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 83 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 83]
+player2 has discarded a 83 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 32 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 32]
+player2 has discarded a 32 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 79 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 79]
+player2 has discarded a 79 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 50 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 50]
+player2 has discarded a 50 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 28 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 28]
+player2 has discarded a 28 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 11 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 11]
+player2 has discarded a 11 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 31 from bag Z
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 31]
+player2 has discarded a 31 to bag C
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 49 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 49]
+player2 has discarded a 49 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 21 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 21]
+player2 has discarded a 21 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 86 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 86]
+player2 has discarded a 86 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 63 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 63]
+player2 has discarded a 63 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 66 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 66]
+player2 has discarded a 66 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 69 from bag Z
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 69]
+player2 has discarded a 69 to bag C
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 56 from bag Z
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 56]
+player2 has discarded a 56 to bag C
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 22 from bag Z
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 22]
+player2 has discarded a 22 to bag C
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 57 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 57]
+player2 has discarded a 57 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 26 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 26]
+player2 has discarded a 26 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 84 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 84]
+player2 has discarded a 84 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 77 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 77]
+player2 has discarded a 77 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 21 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 21]
+player2 has discarded a 21 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 51 from bag Z
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 51]
+player2 has discarded a 51 to bag C
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 51 from bag Z
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 51]
+player2 has discarded a 51 to bag C
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 97 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 97]
+player2 has discarded a 97 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 29 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 29]
+player2 has discarded a 29 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 77 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 77]
+player2 has discarded a 77 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 97 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 97]
+player2 has discarded a 97 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 73 from bag Z
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 73]
+player2 has discarded a 73 to bag C
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 56 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 56]
+player2 has discarded a 56 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 59 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 59]
+player2 has discarded a 59 to bag B
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 91 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 91]
+player2 has discarded a 91 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 24 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 24]
+player2 has discarded a 24 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 66 from bag X
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 66]
+player2 has discarded a 66 to bag A
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6]
+player2 has drawn a 68 from bag Y
+player2 hand is [2, 1, 4, 3, 6, 5, 1, 4, 6, 68]
+player2 has won the game with hand [2, 1, 4, 3, 6, 5, 1, 4, 6, 68]
